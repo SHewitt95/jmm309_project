@@ -53,10 +53,25 @@ body {
   background-color: #e5904e; /* TMH Orange */
 }
 
+header {
+  position: fixed;
+  display: block;
+  top: 0px;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+
+header #main-page {
+  font-size: 3em;
+  color: white;
+}
+
 #page {
   width: 60%;
-  height: 500px;
+  height: 1500px;
   display: block;
   margin: 50px auto;
   background-color: white;
+  padding: 1em;
 }
