@@ -50,4 +50,13 @@ table {
 /***************************  ***************************/
 body {
   font-size: 16px;
+  background-color: #e5904e; /* TMH Orange */
+}
+
+#page {
+  width: 60%;
+  height: 500px;
+  display: block;
+  margin: 50px auto;
+  background-color: white;
 }
