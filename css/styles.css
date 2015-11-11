@@ -107,4 +107,5 @@ header #main-page {
 
 #interactive .bar_chart svg rect {
   clear: both;
+  color: white;
 }

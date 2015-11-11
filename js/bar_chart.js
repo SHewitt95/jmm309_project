@@ -19,8 +19,7 @@ $(document).ready(function() {
           .attr("height", 30)
           .attr("y", function(d, i) {return i * 50;})
           .attr("fill", "blue")
-          //.html(function(d) {return d.Pay})
-
+          .text(function(d) {return d.Pay})
 
   })
 
