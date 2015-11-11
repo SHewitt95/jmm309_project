@@ -5,7 +5,7 @@ $(document).ready(function() {
 
       var chart = d3.select(".bar_chart").append("svg")
         .attr("width", 100 + "%")
-        .attr("height", 100 + "%")
+        .attr("height", 375 + "px") // NOT A GOOD SOLUTION! Get divs to properly sit on top of each other.
         .attr("overflow", "visible")
         .attr("display", "block")
         .attr("clear", "both");
