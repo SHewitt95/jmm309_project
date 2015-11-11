@@ -5,17 +5,21 @@ $(document).ready(function() {
 
       var chart = d3.select(".bar_chart").append("svg")
         .attr("width", 100 + "%")
-        //.attr("height", 100 + "%");
-        .attr("height", 1000 + "px");
+        .attr("height", 100 + "%")
+        .attr("overflow", "visible")
+        .attr("display", "block")
+        .attr("clear", "both");
+        //.attr("height", 1000 + "px");
 
       chart.selectAll("rect")
         .data(data)
         .enter()
           .append("rect")
-          .attr("width", function(d) {return d.Pay * 10;})
-          .attr("height", 50)
+          .attr("width", function(d) {return (d.Pay/1.25) * 25;})
+          .attr("height", 30)
           .attr("y", function(d, i) {return i * 50;})
           .attr("fill", "blue")
+          //.html(function(d) {return d.Pay})
 
 
   })

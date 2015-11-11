@@ -76,6 +76,11 @@ header #main-page {
   padding: 1em;
 }
 
+#page .text {
+  display: block;
+  clear: both;
+}
+
 #page p {
   padding-left: 5em;
   padding-right: 5em;
@@ -90,4 +95,15 @@ header #main-page {
 #headline {
   font-size: 3.5em;
   margin-top: 0.5em;
+}
+
+#interactive {
+  margin-top: 2em;
+  display: block;
+  overflow: visible;
+  clear: both;
+}
+
+#interactive .bar_chart svg rect {
+  clear: both;
 }
