@@ -75,3 +75,11 @@ header #main-page {
   background-color: white;
   padding: 1em;
 }
+
+#page .text #story-top {
+  text-align: center;
+}
+
+#headline {
+  font-size: 3.5em;
+}
