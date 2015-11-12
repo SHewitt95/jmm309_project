@@ -69,7 +69,7 @@ header #main-page {
 
 #page {
   width: 60%;
-  height: 1500px;
+  height: auto;
   display: block;
   margin: 50px auto;
   background-color: white;
@@ -101,6 +101,7 @@ header #main-page {
 #interactive {
   margin-top: 2em;
   display: block;
+  width: 100%;
 }
 
 #interactive .bar_chart {
@@ -109,6 +110,7 @@ header #main-page {
 
 #interactive .bar_chart svg {
   min-height: 300px;
+  min-width: 300px;
 }
 
 #interactive .bar_chart svg rect {
