@@ -78,7 +78,7 @@ header #main-page {
 
 #page .text {
   display: block;
-  clear: both;
+
 }
 
 #page p {
@@ -101,11 +101,16 @@ header #main-page {
 #interactive {
   margin-top: 2em;
   display: block;
-  overflow: visible;
-  clear: both;
+}
+
+#interactive .bar_chart {
+
+}
+
+#interactive .bar_chart svg {
+  min-height: 300px;
 }
 
 #interactive .bar_chart svg rect {
-  clear: both;
-  color: white;
+
 }
