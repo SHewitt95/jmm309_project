@@ -40,18 +40,28 @@
       </div> <!-- End text -->
 
       <div id="database">
-        <div id="database-rows"></div>
+        <div id="database-rows"></div> <!-- End database-rows -->
       </div> <!-- End database -->
 
     </div> <!-- End page -->
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ractive/0.7.3/ractive.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js" charset="utf-8"></script>
+    <script type="text/html" id="row-template">
+      <div class="temp-row">
+        {{#each myJobs}}
+          <p>{{this}}</p>
+        {{/each}}
+      </div>
+    </script>
 
     <script src="data/All_Jobs2.js"></script>
     <script src="js/bar_chart.js"></script>
     <script src="js/database.js"></script>
+
+
 
   </body>
 </html>

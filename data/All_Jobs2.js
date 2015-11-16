@@ -1,4 +1,4 @@
-var DB = [
+window.DB = [
   {
     "Job_Title":"Programmer",
     "Department":"Student Activities",
