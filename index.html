@@ -40,7 +40,19 @@
       </div> <!-- End text -->
 
       <div id="database">
-        <div id="database-rows"></div> <!-- End database-rows -->
+
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Hours to Work</th>
+          </tr>
+        </table>
+
+        <div id="database-rows">
+          <!-- Content will go here -->
+        </div> <!-- End database-rows -->
       </div> <!-- End database -->
 
     </div> <!-- End page -->
@@ -51,11 +63,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js" charset="utf-8"></script>
 
     <script type="text/html" id="row-template">
-      <div class="temp-row">
+      <!--div class="temp-row"-->
         {{#each myJobs}}
-          <p>{{this}}</p>
+        <tr>
+          <td>{{this.Job_Title}}</td>
+          <td>{{this.Department}}</td>
+          <td>${{this.Min_Pay}} to ${{this.Max_Pay}}</td>
+          <td>{{this.Min_Hours}} to {{this.Max_Hours}}</td>
+        </tr>
         {{/each}}
-      </div>
+      <!--/div-->
     </script>
 
     <script src="data/All_Jobs2.js"></script>

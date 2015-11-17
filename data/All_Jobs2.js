@@ -1,5 +1,17 @@
 window.DB = [
   {
+    "Job_Title":"Job Title",
+    "Department":"Department",
+    "Min_Pay":"Salary",
+    "Max_Pay":"",
+    "Min_Hours":"Hours to Work",
+    "Max_Hours":"",
+    "Job_Desc":"",
+    "Address":"",
+    "Phone_Number":"",
+    "Employer":""
+  },
+  {
     "Job_Title":"Programmer",
     "Department":"Student Activities",
     "Min_Pay":10,
@@ -780,7 +792,7 @@ window.DB = [
     "Employer":"RICHTER LIBRARY, Lisa Wheeler"
   },
   {
-    "Job_Title":"CHC Library and Archives Student Assista",
+    "Job_Title":"CHC Library and Archives Student Assistant",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
@@ -1877,7 +1889,7 @@ window.DB = [
     "Min_Pay":8.05,
     "Max_Pay":8.05,
     "Min_Hours":20,
-    "Max_Hours":99,
+    "Max_Hours":40,
     "Job_Desc":"Assist Concessions Manager with office and concessions tasks. Work in the office. Must be a hard worker. All interested students please contact  Norman Schlossberg at (305) 284-8339 or via email nschlossberg@miami.edu.",
     "Address":"125 Whitten Univ Ctr. Auxiliary Services, Coral Gables",
     "Phone_Number":"3052843584",

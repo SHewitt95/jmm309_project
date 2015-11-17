@@ -69,7 +69,7 @@ header #main-page {
 }
 
 #page {
-  width: 60%;
+  width: 70%;
   height: auto;
   display: block;
   margin: 50px auto;
@@ -116,4 +116,17 @@ header #main-page {
 
 #interactive .bar_chart svg rect {
 
+}
+
+#database-rows {
+	width: 100%;
+}
+
+tr {
+	width: 100%;
+}
+
+th, td {
+	font-size: 1em;
+	padding: 0.6em;
 }
