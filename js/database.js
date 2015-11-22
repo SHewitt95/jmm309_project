@@ -21,10 +21,11 @@ $(document).ready(function() {
   //console.log(DB);
 
   var app = new Ractive({
-    el: "#database-rows",
+    el: ".database-rows",
     template: "#row-template",
     data: {
-      myJobs: DB
+      myJobs: DB,
+
     }
 
   });
