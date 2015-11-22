@@ -61,6 +61,7 @@ header {
   background-color: black;
   height: 50px;
   width: 100%;
+	z-index: 10;
 }
 
 header #main-page {
@@ -118,8 +119,12 @@ header #main-page {
 
 }
 
+#database {
+
+}
+
 .database-rows {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -130,6 +135,10 @@ tr {
 th, td {
 	font-size: 1em;
 	padding: 0.6em;
+}
+
+td {
+	max-width: 10%;
 }
 
 .more-info {

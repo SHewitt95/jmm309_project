@@ -1,17 +1,5 @@
 window.DB = [
   {
-    "Job_Title":"Job Title",
-    "Department":"Department",
-    "Min_Pay":"",
-    "Max_Pay":"Salary",
-    "Min_Hours":"Hours",
-    "Max_Hours":"Work",
-    "Job_Desc":"",
-    "Address":"",
-    "Phone_Number":"",
-    "Employer":""
-  },
-  {
     "Job_Title":"Programmer",
     "Department":"Student Activities",
     "Min_Pay":10,
