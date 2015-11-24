@@ -42,7 +42,7 @@
 
       <div id="database">
 
-        <div class="database-rows" id="accordion">
+        <div class="database-rows">
           <!-- Content will go here -->
         </div> <!-- End database-rows -->
 
@@ -52,12 +52,11 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ractive/0.7.3/ractive.min.js"></script>
-    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js" charset="utf-8"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
     <script type="text/html" id="row-template">
-      <!--div class="temp-row"-->
+      <div class="temp-row" id="accordion">
         {{#each myJobs}}
         <tr>
           <td>{{this.Job_Title}}</td>
@@ -72,14 +71,12 @@
           <p>Employer: {{this.Employer}}</p>
         </div>
         {{/each}}
-      <!--/div-->
+      </div> <!-- End temp-row -->
     </script>
 
     <script src="data/All_Jobs2.js"></script>
-    <!-- script src="data/test.js"></script-->
     <script src="js/bar_chart.js"></script>
     <script src="js/database.js"></script>
-    <script src="js/pagination.js"></script>
 
     <script>
       $(function() {
