@@ -60,12 +60,15 @@
         {{#each myJobs}}
         <tr>
           <td>{{this.Job_Title}}</td>
+          <td>${{this.Min_Pay}}</td>
+          <td>${{this.Max_Pay}}</td>
+          <td>{{this.Min_Hours}}</td>
+          <td>{{this.Max_Hours}}</td>
           <td>{{this.Department}}</td>
-          <td>${{this.Min_Pay}} to ${{this.Max_Pay}}</td>
-          <td>{{this.Min_Hours}} to {{this.Max_Hours}}</td>
         </tr>
         <div class="more-info">
           <p>Job Description: {{this.Job_Desc}}</p>
+          <p>Skills: {{this.Skills}}</p>
           <p>Address: {{this.Address}}</p>
           <p>Phone Number: {{this.Phone_Number}}</p>
           <p>Employer: {{this.Employer}}</p>

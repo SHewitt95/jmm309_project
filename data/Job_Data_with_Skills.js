@@ -1,5 +1,18 @@
 window.DB = [
   {
+    "Job_Title":"Job Title",
+    "Department":"Department",
+    "Min_Pay": "",
+    "Max_Pay": "$$",
+    "Min_Hours": "Min. Hours",
+    "Max_Hours": "Max. Hours",
+    "Job_Desc":"Job Description",
+    "Address":"Location of Employment",
+    "Phone_Number":"Job's Phone Number",
+    "Employer":"Job's Employer",
+    "Skills":"List of the job's desired skills. Here is a list of all skills listed on Canelink: Accounting/Bookkeeping, Advertising, Analytical Skills, Archives, Artistic, Assertive, Attentive to detail, Banking, Bilingual, Cataloging, Classifying/Organizing, Communication (Oral), Communication (Visual), Communication (Written), Computer Networking, Conveying Understanding, Cooperative, Copying/Collating, Data entry, Database programs, Developing ideas, Email/Internet, Enthusiastic, Events/Promotions, Excel, FAX, Filing, Follow detail instruct, Food preparation, Fundraising, Graphics/Design, Hardware - IBM, Helping/Serving others, HTML Programming, Independent, Javascript, Layout/Paste-up,Logical, Marketing, Mentoring/Peer Counsel, Microsoft Office Skills, Miscellaneous Skills, Motivating Others, MS Word, Organized, Phone sales/Telemarketing, Photography, PhotoShop, Planning/Arranging, Powerpoint, Problem Solving, Programming, Public Relations, Public Speaking, Reception/Customer Serv, Record keeping, Reference, Research, Resourceful, Shelving, Sociable, Spanish, Teaching, Telephone skills, Thorough, Time Management, Tolerance - Repetition, Troubleshooting, Tutoring, Typing, Video Production, Waiter/Waitress, Windows, WordPerfect, Work well with data, Working with children"
+  },
+  {
     "Job_Title":"Programmer",
     "Department":"Student Activities",
     "Min_Pay":10,
@@ -10,10 +23,10 @@ window.DB = [
     "Address":"230D Architecture 48          School of Architecture -STA 1223 Dickinson Dr Coral Gables, FL 33146 2501",
     "Phone_Number":"(305)284-5080",
     "Employer":"MR Christopher Chung, Department of SCHOOL OF ARCHITECTURE",
-    "Skills":"Graphics/Design, Database programs, Java Script, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
+    "Skills":"Graphics/Design, Database programs, Javascript, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":10,
@@ -26,20 +39,20 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"Student assistant needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
+    "Job_Desc":"Student Asst. needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
     "Address":"111 Jenkins        SBA - Executive Education -STA 5250 University Dr Coral Gables, FL 33146 2000",
     "Phone_Number":"(305)284-5670 Ext.",
     "Employer":"SCHOOL OF EDUCATION, Viena Perez",
     "Skills":"Events/Promotions, Public Relations, Excel, MS Word, Powerpoint, Helping/Serving others, Spanish"
   },
   {
-    "Job_Title":"technology student assistant",
+    "Job_Title":"Technology student Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -52,7 +65,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"clerical",
+    "Job_Title":"Clerical",
     "Department":"RSMAS",
     "Min_Pay":9,
     "Max_Pay":12.5,
@@ -65,20 +78,20 @@ window.DB = [
     "Skills":"Excel, MS Word, bilingual (prefered)"
   },
   {
-    "Job_Title":"Program Assistant",
+    "Job_Title":"Program Asst.",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"The Miami Council for International Visitors arranges professional  appointments for emerging leaders from around the globe who are here by  invitation from the US Dept. of State IVLP program. The Program Assistant  will assist in scheduling appointments within the local community,  research, assist in preparation and deliveries of visitor itineraries, and  assisting in areas of management and administration.",
+    "Job_Desc":"The Miami Council for International Visitors arranges professional  appointments for emerging leaders from around the globe who are here by  invitation from the US Dept. of State IVLP program. The Program Asst.  will assist in scheduling appointments within the local community,  research, assist in preparation and deliveries of visitor itineraries, and  assisting in areas of management and administration.",
     "Address":"37-K, Office of Student Employment, Coral Gables, FL 33124",
     "Phone_Number":"305-421-6344",
     "Employer":"Maria Pavon of Department of Special Olympics Florida",
     "Skills":"Record keeping, Excel, MS Word, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Program Assistant",
+    "Job_Title":"Program Asst.",
     "Department":"Other",
     "Min_Pay":8.25,
     "Max_Pay":8.25,
@@ -91,7 +104,7 @@ window.DB = [
     "Skills":"MS Word, PhotoShop, Windows, Attentive to detail, Classifying/Organizing, Communication (Oral), Organized"
   },
   {
-    "Job_Title":"Social media assistant",
+    "Job_Title":"Social media Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9.1,
     "Max_Pay":10.5,
@@ -104,7 +117,7 @@ window.DB = [
     "Skills":"Marketing, Public Relations, Communication (Visual), Communication (Written), Developing ideas, Reception/Customer Serv"
   },
   {
-    "Job_Title":"Social media assistant",
+    "Job_Title":"Social media Asst.",
     "Department":"Other",
     "Min_Pay":9.1,
     "Max_Pay":9.1,
@@ -117,7 +130,7 @@ window.DB = [
     "Skills":"Marketing, Public Relations, Communication (Visual), Communication (Written), Developing ideas, Reception/Customer Serv"
   },
   {
-    "Job_Title":"Office of Registrar Student Assistant",
+    "Job_Title":"Office of Registrar Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":11.5,
     "Max_Pay":11.5,
@@ -130,7 +143,7 @@ window.DB = [
     "Skills":"Graphics/Design, Layout/Paste-up, Advertising, Events/Promotions, Marketing, Database programs, Excel"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -169,7 +182,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -182,7 +195,7 @@ window.DB = [
     "Skills":"Database programs, Excel, Helping/Serving others, Archives, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -195,7 +208,7 @@ window.DB = [
     "Skills":"Public Speaking, Database programs, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -208,7 +221,7 @@ window.DB = [
     "Skills":"Database programs, Excel, MS Word, Helping/Serving others, Assertive, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Admin assistant",
+    "Job_Title":"Admin Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9.5,
     "Max_Pay":9.5,
@@ -221,7 +234,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, HTML Programming, MS Word, Powerpoint, Analytical Skills, Artistic"
   },
   {
-    "Job_Title":"Admin assistant",
+    "Job_Title":"Admin Asst.",
     "Department":"Other",
     "Min_Pay":9.5,
     "Max_Pay":9.5,
@@ -234,7 +247,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, HTML Programming, MS Word, Powerpoint, Analytical Skills, Artistic"
   },
   {
-    "Job_Title":"Administrative Assistant",
+    "Job_Title":"Administrative Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9.5,
     "Max_Pay":9.5,
@@ -247,7 +260,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, HTML Programming, MS Word, Powerpoint, Analytical Skills, Artistic  "
   },
   {
-    "Job_Title":"Administrative Assistant",
+    "Job_Title":"Administrative Asst.",
     "Department":"Other",
     "Min_Pay":9.5,
     "Max_Pay":9.5,
@@ -266,14 +279,14 @@ window.DB = [
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"ob entails administrative duties to support the office of Education and  Training, assisting with scheduling, preparing forms and folders, preparing  to help with events, requisitions and reimbursements, assisting with travel  arrangements, and setting up meetings.",
+    "Job_Desc":"Ob entails administrative duties to support the office of Education and  Training, assisting with scheduling, preparing forms and folders, preparing  to help with events, requisitions and reimbursements, assisting with travel  arrangements, and setting up meetings.",
     "Address":"37-K        Office of Student Employment Coral Gables, FL 33124 5250",
     "Phone_Number":"(305)284-6641",
     "Employer":"MS Jacqueline Ojeda, Department of EDUCATION AND PSYCHOLOGICAL ST",
     "Skills":"Attentive to detail, Organized, Email/Internet, Filing, Typing"
   },
   {
-    "Job_Title":"clerical",
+    "Job_Title":"Clerical",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":10,
@@ -286,13 +299,13 @@ window.DB = [
     "Skills":"Attentive to detail, Organized, Email/Internet, Filing, Typing"
   },
   {
-    "Job_Title":"esearch Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Research assistant will work with the Cuban Theater Digital Archive  inputting and editing information on a database. Students will also  in the research, editing and writing of entries and essays on Cuban  and Cuban American theater.  Please contact Lillian Manzor Telephone number: 305-284-5585  E-mail: lmanzor@miami.edu ",
+    "Job_Desc":"Research Asst. will work with the Cuban Theater Digital Archive  inputting and editing information on a database. Students will also  in the research, editing and writing of entries and essays on Cuban  and Cuban American theater.  Please contact Lillian Manzor Telephone number: 305-284-5585  E-mail: lmanzor@miami.edu ",
     "Address":"210.07 Merrick, College of A&S -FAC, 5202 University Dr, Coral Gables, FL 33146",
     "Phone_Number":"3052484858 Ext.7314",
     "Employer":"DR Lillian Manzor, Department of MODERN LANGUAGES & LITERATURES",
@@ -351,13 +364,13 @@ window.DB = [
     "Skills":"Database programs, Hardware - IBM, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Operations Assistant",
+    "Job_Title":"Operations Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"The Operations Assistant aides the Supervisor on duty with the performance  of any and all tasks as assigned. This could include moving and  re-arranging furniture, organizing rooms and perhaps setting up audio-  visual equipment. Must be able to work nights, mornings and/or weekends  and lift moderate weights.  Please contact Nick Rau or Lazaro Rodriguez Telephone number:  (305) 284-2319 E-mail: laz@miami.edu ",
+    "Job_Desc":"The Operations Asst. aides the Supervisor on duty with the performance  of any and all tasks as assigned. This could include moving and  re-arranging furniture, organizing rooms and perhaps setting up audio-  visual equipment. Must be able to work nights, mornings and/or weekends  and lift moderate weights.  Please contact Nick Rau or Lazaro Rodriguez Telephone number:  (305) 284-2319 E-mail: laz@miami.edu ",
     "Address":"2300D Whitten UC\t STU AFFRS - Stu Ctr Complex - 1306 Stanford Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2398 Ext.",
     "Employer":"MR Nicholas Rau, Department of UNIVERSITY CENTER",
@@ -390,7 +403,7 @@ window.DB = [
     "Skills":"Record keeping, Database programs, Helping/Serving others, Spanish, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -429,20 +442,20 @@ window.DB = [
     "Skills":"Helping/Serving others, Attentive to detail, Conveying Understanding, Cooperative, Time Management, Data entry, Filing"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"We are currently looking for a student assistant with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
+    "Job_Desc":"We are currently looking for a student Asst. with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
     "Address":"219D Merrick\t Teaching & Learning 3 -STA 5202 University Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2425 Ext.",
     "Employer":"MS Maria Riedmiller, Department of VP REAL ESTATE & FACILITIES",
     "Skills":"Public Relations, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10.99,
     "Max_Pay":10.99,
@@ -455,7 +468,7 @@ window.DB = [
     "Skills":"Public Relations, Public Speaking, Record keeping, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -468,20 +481,20 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"We are currently looking for a student assistant with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
+    "Job_Desc":"We are currently looking for a student Asst. with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
     "Address":"219D Merrick Teaching & Learning 3 -STA 5202 University Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2425 Ext.",
     "Employer":"MR Donner Valle, Department of OFFICE OF THE DEAN, SCHOOL OF",
     "Skills":"Public Relations, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -494,7 +507,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -507,20 +520,20 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"We are currently looking for a student assistant with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
+    "Job_Desc":"We are currently looking for a student Asst. with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
     "Address":"219D Merrick        (305)284-2425 Ext. Teaching & Learning 3 -STA 5202 University Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2425 ",
     "Employer":"MS Joyce Sadler, Department of PSYCHIATRY & BEHAVIORAL SCIENC",
     "Skills":"Public Relations, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -533,7 +546,7 @@ window.DB = [
     "Skills":"Public Speaking, Database programs, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -546,20 +559,20 @@ window.DB = [
     "Skills":"Database programs, Excel, MS Word, Helping/Serving others, Assertive, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":10.99,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"We are currently looking for a student assistant with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
+    "Job_Desc":"We are currently looking for a student Asst. with federal work study  money to assist our office. The job requires for the student to have  working knowledge of Microsoft Office. Duties include making copies,  running errands and filing documents.  Please contact Donner Valle Telephone number: 305-284-2425  E-mail: dvalle@miami.edu ",
     "Address":"219D Merrick Teaching & Learning 3 -STA 5202 University Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2425 Ext.",
     "Employer":"MRS Maria Serrano, Department of LAW LIBRARY",
     "Skills":"Public Relations, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Office Assistant",
+    "Job_Title":"Student Office Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -572,26 +585,26 @@ window.DB = [
     "Skills":"Public Relations, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Undergraduate Research Assistant",
+    "Job_Title":"Undergraduate Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Undergraduate Research Assistant needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
+    "Job_Desc":"Undergraduate Research Asst. needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
     "Address":"321 McArthur Eng CoE - Civil Arch & Env Enginee 1251 Memorial Dr Coral Gables, FL 33146 2509",
     "Phone_Number":"(305)284-5557 Ext.",
     "Employer":"DR James Englehardt, Department of CIVIL, ARCHITECTURAL & ENV ENG",
     "Skills":"Helping/Serving others, Analytical Skills, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Undergraduate Research Assistant",
+    "Job_Title":"Undergraduate Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Undergraduate Research Assistant needed for the following duties; Collection of water samples at the University Village UM Autonomous Net-Zero Water project, delivery to Engineering, and/or laboratory analysis of the water samples, as a part of a student team. Students will be trained and will receive valuable hands-on experience. Some chemical lab experience necessary for water analysis but not for sampling tasks. Other tasks as needed may include help with website maintenance and outreach. Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm",
+    "Job_Desc":"Undergraduate Research Asst. needed for the following duties; Collection of water samples at the University Village UM Autonomous Net-Zero Water project, delivery to Engineering, and/or laboratory analysis of the water samples, as a part of a student team. Students will be trained and will receive valuable hands-on experience. Some chemical lab experience necessary for water analysis but not for sampling tasks. Other tasks as needed may include help with website maintenance and outreach. Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm",
     "Address":"321 McArthur Eng, CoE - Civil Arch & Env Enginee, 1251 Memorial Dr, Coral Gables, FL 33146 2509",
     "Phone_Number":"3052855557",
     "Employer":"DR James Englehardt, Department of CIVIL, ARCHITECTURAL & ENV ENG",
@@ -663,7 +676,7 @@ window.DB = [
     "Skills":"Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Resourceful"
   },
   {
-    "Job_Title":"Work Study Research Assistant",
+    "Job_Title":"Work Study Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
@@ -676,7 +689,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Work Study Research Assistant",
+    "Job_Title":"Work Study Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":12,
     "Max_Pay":12,
@@ -689,33 +702,33 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Operations Assistant",
+    "Job_Title":"Operations Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"The Operations Assistant aides the Supervisor on duty with the performance  of any and all tasks as assigned. This could include moving and  re-arranging furniture, organizing rooms and perhaps setting up audio-  visual equipment. Must be able to work nights, mornings and/or weekends  and lift moderate weights.  Please contact Nick Rau or Lazaro Rodriguez Telephone number:  (305) 284-2319 E-mail: laz@miami.edu ",
+    "Job_Desc":"The Operations Asst. aides the Supervisor on duty with the performance  of any and all tasks as assigned. This could include moving and  re-arranging furniture, organizing rooms and perhaps setting up audio-  visual equipment. Must be able to work nights, mornings and/or weekends  and lift moderate weights.  Please contact Nick Rau or Lazaro Rodriguez Telephone number:  (305) 284-2319 E-mail: laz@miami.edu ",
     "Address":"2300D Whitten UC         STU AFFRS - Stu Ctr Complex - 1306 Stanford Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-2398",
     "Employer":"MR Nicholas Rau, Department of UNIVERSITY CENTER",
     "Skills":"Helping/Serving others, Communication (Oral), Communication (Written), Cooperative, Enthusiastic, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Research assistant will work with the Cuban Theater Digital Archive  inputting and editing information on a database. Students will also  in the research, editing and writing of entries and essays on Cuban  and Cuban American theater.  Please contact Lillian Manzor Telephone number: 305-284-5585  E-mail: lmanzor@miami.edu ",
+    "Job_Desc":"Research Asst. will work with the Cuban Theater Digital Archive  inputting and editing information on a database. Students will also  in the research, editing and writing of entries and essays on Cuban  and Cuban American theater.  Please contact Lillian Manzor Telephone number: 305-284-5585  E-mail: lmanzor@miami.edu ",
     "Address":"210.07 Merrick\t College of A&S -FAC 5202 University Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-4858 Ext.7314",
     "Employer":"MR Christopher Chung, Department of SCHOOL OF ARCHITECTURE",
     "Skills":"Public Relations, HTML Programming, Helping/Serving others, Spanish, Analytical Skills, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -728,26 +741,26 @@ window.DB = [
     "Skills":" Public Relations, Public Speaking, Record keeping, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Undergraduate research assistant",
+    "Job_Title":"Undergraduate research Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Undergraduate Research Assistant needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
+    "Job_Desc":"Undergraduate Research Asst. needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
     "Address":"321 McArthur Eng\t CoE - Civil Arch & Env Enginee 1251 Memorial Dr Coral Gables, FL 33146 2509",
     "Phone_Number":"(305)284-5557 Ext.",
     "Employer":"CIVIL, ARCHITECTURAL & ENV ENG",
     "Skills":"Helping/Serving others, Analytical Skills, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Undergraduate research assistant",
+    "Job_Title":"Undergraduate research Asst.",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Undergraduate Research Assistant needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
+    "Job_Desc":"Undergraduate Research Asst. needed for the following duties;  Collection of water samples at the University Village UM Autonomous  Net-Zero Water project, delivery to Engineering, and/or laboratory analysis  of the water samples, as a part of a student team. Students will be trained  and will receive valuable hands-on experience. Some chemical lab experience  necessary for water analysis but not for sampling tasks. Other tasks as  needed may include help with website maintenance and outreach.  Please email: jenglehardt@miami.edu www.miami.edu/netzerowaterdorm ",
     "Address":"321 McArthur Eng\t CoE - Civil Arch & Env Enginee 1251 Memorial Dr Coral Gables, FL 33146 2509",
     "Phone_Number":"(305)284-5557 Ext.",
     "Employer":"CIVIL, ARCHITECTURAL & ENV ENG",
@@ -780,7 +793,7 @@ window.DB = [
     "Skills":"Computer Networking, Excel, MS Word, WordPerfect, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"help desk technician",
+    "Job_Title":"Help desk technician",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -793,7 +806,7 @@ window.DB = [
     "Skills":"Computer Networking, Excel, MS Word, WordPerfect, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Student Library Assistant",
+    "Job_Title":"Student Library Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.25,
     "Max_Pay":8.25,
@@ -806,7 +819,7 @@ window.DB = [
     "Skills":"Record keeping, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Library Assistant",
+    "Job_Title":"Student Library Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.25,
     "Max_Pay":9,
@@ -819,7 +832,7 @@ window.DB = [
     "Skills":"Record keeping, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Library Assistant",
+    "Job_Title":"Student Library Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":8.25,
     "Max_Pay":8.25,
@@ -832,7 +845,7 @@ window.DB = [
     "Skills":"Record keeping, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Library Assistant",
+    "Job_Title":"Student Library Asst.",
     "Department":"Other",
     "Min_Pay":8.25,
     "Max_Pay":8.25,
@@ -858,7 +871,7 @@ window.DB = [
     "Skills":"Excel, MS Word, Windows, Helping/Serving others, Spanish, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"CHC Library and Archives Student Assistant",
+    "Job_Title":"CHC Library and Archives Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
@@ -871,7 +884,7 @@ window.DB = [
     "Skills":"Excel, MS Word, Windows, Helping/Serving others, Spanish, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -884,7 +897,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.25,
     "Max_Pay":11,
@@ -897,7 +910,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -910,7 +923,7 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":11,
@@ -923,26 +936,26 @@ window.DB = [
     "Skills":"Events/Promotions, Excel, MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.25,
     "Max_Pay":11,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Office Assistant needed for the following duties; Answer incoming calls, Campaign call, filing, scanning, creating excel spreadsheets, answering office emails, scan incoming documents and assist with front desk duties. Experience is not needed - we are willing to train all those who are hired Must have Federal work study or Miami Commitment. If interested, please contact Frances Arcay Telephone number: 305-284-6430 E-mail: f.arcay@miami.edu Work Schedule: Mon 11am-1pm & 1pm-3pm Tue & Thur 8:30am-11am Wed 11am-1pm 1pm-3pm & 3pm-5pm Fri 1pm-3pm & 3pm-5pm",
+    "Job_Desc":"Office Asst. needed for the following duties; Answer incoming calls, Campaign call, filing, scanning, creating excel spreadsheets, answering office emails, scan incoming documents and assist with front desk duties. Experience is not needed - we are willing to train all those who are hired Must have Federal work study or Miami Commitment. If interested, please contact Frances Arcay Telephone number: 305-284-6430 E-mail: f.arcay@miami.edu Work Schedule: Mon 11am-1pm & 1pm-3pm Tue & Thur 8:30am-11am Wed 11am-1pm 1pm-3pm & 3pm-5pm Fri 1pm-3pm & 3pm-5pm",
     "Address":"2275 Whitten UC, Enrollment Mgmt - Financial As, 1306 Stanford Dr, Coral Gables, FL 33146",
     "Phone_Number":"3052845212 Ext.3546",
     "Employer":"MRS Elvira Vilaboy, Department of SCHOOL OF LAW",
     "Skills":"Public Relations, Database programs, Excel, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":11,
     "Max_Pay":11,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Office Assistant needed for the following duties; Answer incoming calls,  Campaign call, filing, scanning, creating excel spreadsheets, answering  office emails, scan incoming documents and assist with front desk duties.  Experience is not needed - we are willing to train all those who are hired  Must have Federal work study or Miami Commitment.  If interested, please contact Frances Arcay Telephone number: 305-284-6430  E-mail: f.arcay@miami.edu Work Schedule: Mon 11am-1pm & 1pm-3pm Tue &  Thur 8:30am-11am Wed 11am-1pm 1pm-3pm & 3pm-5pm Fri 1pm-3pm & 3pm-5pm ",
+    "Job_Desc":"Office Asst. needed for the following duties; Answer incoming calls,  Campaign call, filing, scanning, creating excel spreadsheets, answering  office emails, scan incoming documents and assist with front desk duties.  Experience is not needed - we are willing to train all those who are hired  Must have Federal work study or Miami Commitment.  If interested, please contact Frances Arcay Telephone number: 305-284-6430  E-mail: f.arcay@miami.edu Work Schedule: Mon 11am-1pm & 1pm-3pm Tue &  Thur 8:30am-11am Wed 11am-1pm 1pm-3pm & 3pm-5pm Fri 1pm-3pm & 3pm-5pm ",
     "Address":"2275 Whitten UC Enrollment Mgmt - Financial As 1306 Stanford Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-5212 Ext.3546",
     "Employer":"MS Ana Silvera, Department of CONTINUING MEDICAL EDUCATION",
@@ -975,7 +988,7 @@ window.DB = [
     "Skills":"Computer Networking, Excel, MS Word, WordPerfect, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"help desk technician",
+    "Job_Title":"Help desk technician",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -1001,7 +1014,7 @@ window.DB = [
     "Skills":"Computer Networking, Excel, MS Word, WordPerfect, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"ILL/Reserves Student Assistant",
+    "Job_Title":"ILL/Reserves Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
@@ -1014,7 +1027,7 @@ window.DB = [
     "Skills":"Public Relations, Windows, Helping/Serving others, Research, Shelving, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"ILL/Reserves Student Assistant",
+    "Job_Title":"ILL/Reserves Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.5,
@@ -1027,7 +1040,7 @@ window.DB = [
     "Skills":"Public Relations, Windows, Helping/Serving others, Research, Shelving, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"ILL/Reserves Student Assistant",
+    "Job_Title":"ILL/Reserves Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":8.5,
     "Max_Pay":8.5,
@@ -1040,7 +1053,7 @@ window.DB = [
     "Skills":"Public Relations, Windows, Helping/Serving others, Research, Shelving, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"ILL/Reserves Student Assistant",
+    "Job_Title":"ILL/Reserves Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":8.5,
@@ -1053,26 +1066,26 @@ window.DB = [
     "Skills":"Public Relations, Windows, Helping/Serving others, Research, Shelving, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Amigos Office Assistant",
+    "Job_Title":"Amigos Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Student employee will be working with sensitive information about member-  ship, accounts, and expenses of organization; communicate effectively  with the Board and membership; prepare materials for quarterly meetings.  In addition, position will also provide clerical support for the Chair  and their assistants as assigned, including photocopying, preparing  deposits, drafting and sending correspondence, assisting with the  preparation of reports, and other duties. Bilingual (English and Spanish)  preferred. Please contact Annie Sansone E-mail: a.sansone@umiami.edu",
+    "Job_Desc":"Student employee will be working with sensitive information about member-  ship, accounts, and expenses of organization; communicate effectively  with the Board and membership; prepare materials for quarterly meetings.  In addition, position will also provide clerical support for the Chair  and their asst. as assigned, including photocopying, preparing  deposits, drafting and sending correspondence, assisting with the  preparation of reports, and other duties. Bilingual (English and Spanish)  preferred. Please contact Annie Sansone E-mail: a.sansone@umiami.edu",
     "Address":"230 Richter Library\t Library - Cuban Heritage Colle 1300 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-4008 Ext.",
     "Employer":"MS Annie Sansone-Martinez, Department of RICHTER LIBRARY",
     "Skills":"Accounting/Bookeeping, Public Relations, Record keeping, Excel, MS Word, Helping/Serving others, Attentive to detail"
   },
   {
-    "Job_Title":"Amigos Office Assistant",
+    "Job_Title":"Amigos Office Asst.",
     "Department":"Student Activities",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Student employee will be working with sensitive information about member-  ship, accounts, and expenses of organization; communicate effectively  with the Board and membership; prepare materials for quarterly meetings.  In addition, position will also provide clerical support for the Chair  and their assistants as assigned, including photocopying, preparing  deposits, drafting and sending correspondence, assisting with the  preparation of reports, and other duties. Bilingual (English and Spanish)  preferred. Please contact Annie Sansone E-mail: a.sansone@umiami.edu ",
+    "Job_Desc":"Student employee will be working with sensitive information about member-  ship, accounts, and expenses of organization; communicate effectively  with the Board and membership; prepare materials for quarterly meetings.  In addition, position will also provide clerical support for the Chair  and their asst. as assigned, including photocopying, preparing  deposits, drafting and sending correspondence, assisting with the  preparation of reports, and other duties. Bilingual (English and Spanish)  preferred. Please contact Annie Sansone E-mail: a.sansone@umiami.edu ",
     "Address":"230 Richter Library         Library - Cuban Heritage Colle 1300 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-4008",
     "Employer":"MS Annie Sansone-Martinez, Department of RICHTER LIBRARY",
@@ -1118,7 +1131,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
@@ -1131,7 +1144,7 @@ window.DB = [
     "Skills":"Excel, MS Word, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1144,7 +1157,7 @@ window.DB = [
     "Skills":"Excel, MS Word, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":9.09,
@@ -1157,7 +1170,7 @@ window.DB = [
     "Skills":"Excel, MS Word, Helping/Serving others, Attentive to detail,Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":12,
@@ -1170,59 +1183,59 @@ window.DB = [
     "Skills":"Excel, MS Word, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Security Assistant",
+    "Job_Title":"Security Asst.",
     "Department":"Housing and Dining",
     "Min_Pay":10.5,
     "Max_Pay":10.5,
     "Min_Hours":10,
     "Max_Hours":14,
-    "Job_Desc":"Security assistant needed for the following duties; Screening and verifying residency all individuals by checking their Cane Card or other picture ID. Monitoring the fire alarm and door prop panels. Managing emergency situations. Maintaining accurate and legible security Activity Logs, Guest Logs, & Failure to Show ID logs, Assisting in emergencies as needed. Answering all telephone calls. Need to attend Security Assistant training programs & meetings. Please go to https://miami.erezlife.com/staffapp/ application must be fully completed & submitted no later than SUNDAY 10/18",
+    "Job_Desc":"Security Asst. needed for the following duties; Screening and verifying residency all individuals by checking their Cane Card or other picture ID. Monitoring the fire alarm and door prop panels. Managing emergency situations. Maintaining accurate and legible security Activity Logs, Guest Logs, & Failure to Show ID logs, Assisting in emergencies as needed. Answering all telephone calls. Need to attend Security Asst. training programs & meetings. Please go to https://miami.erezlife.com/staffapp/ application must be fully completed & submitted no later than SUNDAY 10/18",
     "Address":"153 Eaton Res College, STU AFFRS - Housing-Res Life - 1211 Dickinson Dr, Coral Gables, FL 33146 2501",
     "Phone_Number":"(305)284-4305",
     "Employer":"Mr Adam Lynch, Department of HOUSING & RESIDENTIAL LIFE",
     "Skills":"Public Relations, Public Speaking, Record keeping, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"office assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9.1,
     "Max_Pay":9.1,
     "Min_Hours":10,
     "Max_Hours":15,
-    "Job_Desc":"The division for Continuing Medical Education is searching for two office  assistants to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
+    "Job_Desc":"The division for Continuing Medical Education is searching for two office  asst. to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
     "Address":"1026 Jackson Towers         Continuing Medical Education - 1500 NW 12th Ave Miami, FL 33136 1051",
     "Phone_Number":"(305)243-6717 Ext.",
     "Employer":"LAW SCHOOL, Elvira Vilaboy",
     "Skills":" Excel, MS Word, Powerpoint, Analytical Skills, Attentive to detail, Classifying/Organizing, Communication (Oral)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9.1,
     "Min_Hours":10,
     "Max_Hours":15,
-    "Job_Desc":"The division for Continuing Medical Education is searching for two office  assistants to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
+    "Job_Desc":"The division for Continuing Medical Education is searching for two office  asst. to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
     "Address":"1026 Jackson Towers         Continuing Medical Education - 1500 NW 12th Ave Miami, FL 33136 1051",
     "Phone_Number":"(305)243-6717 Ext.",
     "Employer":"MRS Marilyn deNarvaez, Department of OFFICE OF THE DEAN, SCHOOL OF",
     "Skills":"Excel, MS Word, Powerpoint, Analytical Skills, Attentive to detail, Classifying/Organizing, Communication (Oral)"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9.1,
     "Min_Hours":10,
     "Max_Hours":15,
-    "Job_Desc":"The division for Continuing Medical Education is searching for two office  assistants to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
+    "Job_Desc":"The division for Continuing Medical Education is searching for two office  asst. to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks. For more information please contact Ana  Silvera at (305) 243-6716 or email her at ajs179@med.miami.edu.  Only candidates with a Federal Work Study Award will be considered. ",
     "Address":"1026 Jackson Towers         Continuing Medical Education - 1500 NW 12th Ave Miami, FL 33136 1051",
     "Phone_Number":"(305)243-6717 Ext.",
     "Employer":"MRS Marilyn deNarvaez, Department of OFFICE OF THE DEAN, SCHOOL OF",
     "Skills":" Excel, MS Word, Powerpoint, Analytical Skills, Attentive to detail, Classifying/Organizing, Communication (Oral)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1235,59 +1248,59 @@ window.DB = [
     "Skills":"Helping/Serving others, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Logical"
   },
   {
-    "Job_Title":"Digital Production Student Assistant",
+    "Job_Title":"Digital Production Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":10,
     "Max_Hours":20,
-    "Job_Desc":"The Digital Production Student Assistant will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
+    "Job_Desc":"The Digital Production Student Asst. will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
     "Address":"101 Richter Library\t Otto G. Richter Library 19 -ST 1300 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-4184 Ext.",
     "Employer":"RICHTER LIBRARY, Mark Buchholz",
     "Skills":"Database programs, PhotoShop, Windows, Helping/Serving others, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Digital Production Student Assistant",
+    "Job_Title":"Digital Production Student Asst.",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":10,
     "Max_Hours":20,
-    "Job_Desc":"The Digital Production Student Assistant will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
+    "Job_Desc":"The Digital Production Student Asst. will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
     "Address":"101 Richter Library\t Otto G. Richter Library 19 -ST 1300 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-4184 Ext.",
     "Employer":"RICHTER LIBRARY, Mark Buchholz",
     "Skills":"Database programs, PhotoShop, Windows, Helping/Serving others, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Digital Production Student Assistant",
+    "Job_Title":"Digital Production Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":10,
     "Max_Hours":20,
-    "Job_Desc":"The Digital Production Student Assistant will be responsible for digitizing Library materials, and for quality checking digitized files against established quality control guidelines. Applicants will be working with the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro, Windows 7, Mac OS X. Applicants must display great attention to detail when managing and renaming files and must also have excellent color perception. Any kind of scanning or digital imaging experience is preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
+    "Job_Desc":"The Digital Production Student Asst. will be responsible for digitizing Library materials, and for quality checking digitized files against established quality control guidelines. Applicants will be working with the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro, Windows 7, Mac OS X. Applicants must display great attention to detail when managing and renaming files and must also have excellent color perception. Any kind of scanning or digital imaging experience is preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
     "Address":"101 Richter Library, Otto G. Richter Library 19 -ST, 1300 Memorial Dr, Coral Gables, FL 33146 2509",
     "Phone_Number":"3052844184",
     "Employer":"MR Mark Buchholz, Department of RICHTER LIBRARY",
     "Skills":"Database programs, PhotoShop, Windows, Helping/Serving others, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Digital Production Student Assistant",
+    "Job_Title":"Digital Production Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":10,
     "Max_Hours":20,
-    "Job_Desc":"The Digital Production Student Assistant will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
+    "Job_Desc":"The Digital Production Student Asst. will be responsible for digitizing  Library materials, and for quality checking digitized files against  established quality control guidelines. Applicants will be working with  the following software: Adobe Photoshop, Epson Scan, Adobe Premiere Pro,  Windows 7, Mac OS X. Applicants must display great attention to detail  when managing and renaming files and must also have excellent color  perception. Any kind of scanning or digital imaging experience is  preferred. Please contact Mark Buchholz E-mail: mbuchholz@miami.edu",
     "Address":"101 Richter Library Otto G. Richter Library 19 -ST 1300 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-4184 Ext.",
     "Employer":"MR Mark Buchholz, Department of RICHTER LIBRARY",
     "Skills":"Database programs, PhotoShop, Windows, Helping/Serving others, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Clinical Office Assistant",
+    "Job_Title":"Clinical Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -1300,7 +1313,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Clinical Office Assistant",
+    "Job_Title":"Clinical Office Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -1313,7 +1326,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Clinical Office Assistant",
+    "Job_Title":"Clinical Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -1326,7 +1339,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"clinical office assistant",
+    "Job_Title":"Clinical office Asst.",
     "Department":"Student Activities",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -1339,7 +1352,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"clinical office assistant",
+    "Job_Title":"Clinical office Asst.",
     "Department":"Other",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -1391,7 +1404,7 @@ window.DB = [
     "Skills":"MS Word, Attentive to detail, Communication (Oral), Communication (Written), Copying/Collating, Filing, FAX"
   },
   {
-    "Job_Title":"research assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Medical Campus",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1404,7 +1417,7 @@ window.DB = [
     "Skills":"Windows, Attentive to detail, Communication (Oral), Communication (Written), Conveying Understanding, Cooperative, Email/Internet"
   },
   {
-    "Job_Title":"Assist. Web Designer, Production Assist.",
+    "Job_Title":"Asst. Web Designer, Production Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":12,
@@ -1414,10 +1427,10 @@ window.DB = [
     "Address":"720 Gables One Tower University Communications - On 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-6271 Ext.",
     "Employer":"MR Ruben Rivero, Department of UNIVERSITY COMMUNICATIONS",
-    "Skills":"Public Relations, Computer Networking, HTML Programming, Java Script, MS Word, Programming, Windows"
+    "Skills":"Public Relations, Computer Networking, HTML Programming, Javascript, MS Word, Programming, Windows"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1430,7 +1443,7 @@ window.DB = [
     "Skills":"Database programs, Excel, Powerpoint, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Assist. Web Designer, Production Assist",
+    "Job_Title":"Asst. Web Designer, Production Assist",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":12,
@@ -1440,10 +1453,10 @@ window.DB = [
     "Address":"720 Gables One Tower\t University Communications - On 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-6271 Ext.",
     "Employer":"COMMUNICATION",
-    "Skills":"Public Relations, Computer Networking, HTML Programming, Java Script, MS Word, Programming, Windows"
+    "Skills":"Public Relations, Computer Networking, HTML Programming, Javascript, MS Word, Programming, Windows"
   },
   {
-    "Job_Title":"Assist. Web Designer, Production Assist",
+    "Job_Title":"Asst. Web Designer, Production Assist",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":12,
@@ -1453,7 +1466,7 @@ window.DB = [
     "Address":"720 Gables One Tower\t University Communications - On 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-6271 Ext.",
     "Employer":"COMMUNICATION",
-    "Skills":"Public Relations, Computer Networking, HTML Programming, Java Script, MS Word, Programming, Windows"
+    "Skills":"Public Relations, Computer Networking, HTML Programming, Javascript, MS Word, Programming, Windows"
   },
   {
     "Job_Title":"Federal Work Study",
@@ -1482,7 +1495,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"federal work study",
+    "Job_Title":"Federal work study",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -1495,7 +1508,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail,Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"federal work study",
+    "Job_Title":"Federal work study",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -1534,7 +1547,7 @@ window.DB = [
     "Skills":"Events/Promotions, Public Relations, Public Speaking, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
@@ -1547,7 +1560,7 @@ window.DB = [
     "Skills":"Graphics/Design, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
@@ -1560,7 +1573,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1573,7 +1586,7 @@ window.DB = [
     "Skills":"Excel, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -1586,7 +1599,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -1599,7 +1612,7 @@ window.DB = [
     "Skills":"Excel, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -1612,7 +1625,7 @@ window.DB = [
     "Skills":"Database programs, Excel, Powerpoint, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant (FWS)",
+    "Job_Title":"Student Asst. (FWS)",
     "Department":"Schools and Libraries",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -1625,7 +1638,7 @@ window.DB = [
     "Skills":"Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Logical"
   },
   {
-    "Job_Title":"Student assistant (FWS)",
+    "Job_Title":"Student Asst. (FWS)",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -1638,7 +1651,7 @@ window.DB = [
     "Skills":"Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Logical"
   },
   {
-    "Job_Title":"Student assistant (FWS)",
+    "Job_Title":"Student Asst. (FWS)",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -1651,20 +1664,20 @@ window.DB = [
     "Skills":"Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Logical"
   },
   {
-    "Job_Title":"Student Assistant-Pediatric Advancement",
+    "Job_Title":"Student Asst.-Pediatric Advancement",
     "Department":"Medical Campus",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Office of Pediatric Advancement supports the entire Department of  Pediatrics for the University of Miami Miller School of Medicine by  securing financial support through individual, corporate and foundation  gifts. This position will serve as a student assistant in the Pediatric  Advancement Office located in Mailman Center on the Medical Campus.",
+    "Job_Desc":"The Office of Pediatric Advancement supports the entire Department of  Pediatrics for the University of Miami Miller School of Medicine by  securing financial support through individual, corporate and foundation  gifts. This position will serve as a student Asst. in the Pediatric  Advancement Office located in Mailman Center on the Medical Campus.",
     "Address":"1021A Jackson Towers       Medical Development - Advancem 1500 NW 12th Ave Miami, FL 33136 1051",
     "Phone_Number":"(305)243-8860 Ext.",
     "Employer":"MR Daniel Thorpe, Department of MEDICAL DEVELOPMENT",
     "Skills":"Attentive to detail, Communication (Oral), Communication (Visual), Communication (Written)"
   },
   {
-    "Job_Title":"Student Office Assistant",
+    "Job_Title":"Student Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.05,
     "Max_Pay":8.25,
@@ -1703,59 +1716,59 @@ window.DB = [
     "Skills":"Banking, Events/Promotions, Phone sales/Telemarket, Public Relations, Database programs, Helping/Serving others, Attentive to detail"
   },
   {
-    "Job_Title":"Web Assistant",
+    "Job_Title":"Web Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9.1,
     "Max_Pay":10.99,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Division of Enrollment Management is seeking a Web Assistant for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
+    "Job_Desc":"The Division of Enrollment Management is seeking a Web Asst. for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
     "Address":"250C Gables One Tower       Enrollment Mgmt - Market Resea 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"  (305)284-5259 Ext.",
     "Employer":"MR Jorge Mesa, Department of MARKET RESEARCH",
-    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Java Script, MS Word, WordPerfect"
+    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Javascript, MS Word, WordPerfect"
   },
   {
-    "Job_Title":"Web assistant",
+    "Job_Title":"Web Asst.",
     "Department":"Student Activities",
     "Min_Pay":9.1,
     "Max_Pay":10.99,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Division of Enrollment Management is seeking a Web Assistant for the following duties; Assist with web design, programming, maintenance. Assist in day-to-day responsibilities using our CMS platforms (Expression Engine & Cascade CMS) & other applications such as Salesforce, Marketo, WuFoo, & more. Must have experience with programming/updating web pages using HTML, CSS, & JavaScript. Provide timely, accurate data entry & updates on the website. Other essential duties & responsibilities as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03)",
+    "Job_Desc":"The Division of Enrollment Management is seeking a Web Asst. for the following duties; Assist with web design, programming, maintenance. Assist in day-to-day responsibilities using our CMS platforms (Expression Engine & Cascade CMS) & other applications such as Salesforce, Marketo, WuFoo, & more. Must have experience with programming/updating web pages using HTML, CSS, & JavaScript. Provide timely, accurate data entry & updates on the website. Other essential duties & responsibilities as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03)",
     "Address":"250C Gables One Tower, Enrollment Mgmt - Market Research, 1320 S Dixie Hwy, Coral Gables, FL 33146 2926",
     "Phone_Number":"3052845259",
     "Employer":"MARKET RESEARCH, Jorge Mesa",
-    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Java Script, MS Word, WordPerfect"
+    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Javascript, MS Word, WordPerfect"
   },
   {
-    "Job_Title":"Web assistant",
+    "Job_Title":"Web Asst.",
     "Department":"Other",
     "Min_Pay":9.1,
     "Max_Pay":10.99,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Division of Enrollment Management is seeking a Web Assistant for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
+    "Job_Desc":"The Division of Enrollment Management is seeking a Web Asst. for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
     "Address":"250C Gables One Tower       Enrollment Mgmt - Market Resea 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"  (305)284-5259 Ext.",
     "Employer":"MARKET RESEARCH, Jorge Mesa",
-    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Java Script, MS Word, WordPerfect"
+    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Javascript, MS Word, WordPerfect"
   },
   {
-    "Job_Title":"Receptionist/Clerk/Assistant",
+    "Job_Title":"Receptionist/Clerk/Asst.",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"Coconut Gove Law Office that specializes in personal injury, family law,and  contract reviews, seeks a receptionist/assistant that will assist the by  answering phone calls, client interviews, speaking with clients, organize  and mantain client files for meeints, heerings, depositions, or mediations,  assist with office calander, and perform office related duties. You will be  able to attend hearings, client meetings, and other schedules events.",
+    "Job_Desc":"Coconut Gove Law Office that specializes in personal injury, family law,and  contract reviews, seeks a receptionist/Asst. that will assist the by  answering phone calls, client interviews, speaking with clients, organize  and mantain client files for meeints, heerings, depositions, or mediations,  assist with office calander, and perform office related duties. You will be  able to attend hearings, client meetings, and other schedules events.",
     "Address":"37-K, Office of Student Employment, Coral Gables, FL 33124",
     "Phone_Number":"3056719050",
     "Employer":"Scott Merl",
     "Skills":"Analytical Skills, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Visual), Communication (Written), Conveying Understanding"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1768,7 +1781,7 @@ window.DB = [
     "Skills":"Database programs, Excel, Powerpoint, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -1781,7 +1794,7 @@ window.DB = [
     "Skills":" Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -1794,7 +1807,7 @@ window.DB = [
     "Skills":"Graphics/Design, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":10.99,
@@ -1807,7 +1820,7 @@ window.DB = [
     "Skills":"Database programs, Excel, Powerpoint, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":12,
@@ -1820,7 +1833,7 @@ window.DB = [
     "Skills":" Public Relations, Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Student Assistant (FWS)",
+    "Job_Title":"Student Asst. (FWS)",
     "Department":"Administrative Offices",
     "Min_Pay":8.05,
     "Max_Pay":14,
@@ -1833,65 +1846,65 @@ window.DB = [
     "Skills":"Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent, Logical"
   },
   {
-    "Job_Title":"Web Assistant",
+    "Job_Title":"Web Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":9.1,
     "Max_Pay":9.1,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Division of Enrollment Management is seeking a Web Assistant for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
+    "Job_Desc":"The Division of Enrollment Management is seeking a Web Asst. for the  following duties; Assist with web design, programming, maintenance.  Assist in day-to-day responsibilities using our CMS platforms (Expression  Engine & Cascade CMS) & other applications such as Salesforce,  Marketo, WuFoo, & more. Must have experience with programming/updating  web pages using HTML, CSS, & JavaScript. Provide timely, accurate data  entry & updates on the website. Other essential duties & responsibilities  as assigned. Please e-mail Jorge Mesa at j.mesa5@miami.edu (03) ",
     "Address":"250C Gables One Tower Enrollment Mgmt - Market Resea 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-5259 Ext",
     "Employer":"MR Jorge Mesa, Department of MARKET RESEARCH",
-    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Java Script, MS Word, WordPerfect"
+    "Skills":"Graphics/Design, Public Relations, Database programs, HTML Programming, Javascript, MS Word, WordPerfect"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10.99,
     "Max_Pay":10.99,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Department of Psychiatry is seeking a Student Assistant to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. If interested, please send  a CV to Andrea at asanto@med.miami.edu. Located on the Med campus. ",
+    "Job_Desc":"The Department of Psychiatry is seeking a Student Asst. to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. If interested, please send  a CV to Andrea at asanto@med.miami.edu. Located on the Med campus. ",
     "Address":"620A McKnight-Vision Res\t Ophthalmology Department Miami, FL 33136 1015",
     "Phone_Number":"(305)482-4230 Ext.",
     "Employer":"MRS Sheri Virok, Department of BENEFITS ADMINISTRATION",
     "Skills":"Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Department of Psychiatry is seeking a Student Assistant to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. ",
+    "Job_Desc":"The Department of Psychiatry is seeking a Student Asst. to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. ",
     "Address":"620A McKnight-Vision Res        (305)482-4230 Ext. Ophthalmology Department Miami, FL 33136 1015",
     "Phone_Number":"",
     "Employer":"Ms Suelyn Chong, Department of COUNSELING CENTER",
     "Skills":"Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Department of Psychiatry is seeking a Student Assistant to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. ",
+    "Job_Desc":"The Department of Psychiatry is seeking a Student Asst. to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. ",
     "Address":"620A McKnight-Vision Res         Ophthalmology Department Miami, FL 33136 1015",
     "Phone_Number":"(305)482-4230 Ext.",
     "Employer":"MS Saray Whittaker, Department of ADMINISTRATION",
     "Skills":"Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":10,
     "Min_Hours":15,
     "Max_Hours":19,
-    "Job_Desc":"The Department of Psychiatry is seeking a Student Assistant to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. If interested, please send  a CV to Andrea at asanto@med.miami.edu. Located on the Med campus.",
+    "Job_Desc":"The Department of Psychiatry is seeking a Student Asst. to work on the  Medical Campus to assist in the office of graduate medical education.  You will provide administrative support for the Residency Director and  Residency Director and Residency Coordinators in the areas of data entry,  making copies, faxing, filing, answering phones, sorting mail and assisting  the manager with other duties as assigned. Basic computer skills are  required to fulfill the functions of this job. If interested, please send  a CV to Andrea at asanto@med.miami.edu. Located on the Med campus.",
     "Address":"620A McKnight-Vision Res        Ophthalmology Department Miami, FL 33136 1015",
     "Phone_Number":"(305)482-4230",
     "Employer":"MS Ana Aguilar, Department of INTENSIVE ENGLISH PROGRAMS",
@@ -1911,52 +1924,52 @@ window.DB = [
     "Skills":"Public Relations, Research, Attentive to detail, Communication (Visual), Communication (Written), Follow detail instruct., Organized"
   },
   {
-    "Job_Title":"office assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9.1,
     "Max_Pay":9.1,
     "Min_Hours":15,
     "Max_Hours":20,
-    "Job_Desc":"Seeking Office Assistant to handle clerical work. Student will be filing,  typing correspondence, entering data, mailing distribution, scanning and  checking voicemail. ",
+    "Job_Desc":"Seeking Office Asst. to handle clerical work. Student will be filing,  typing correspondence, entering data, mailing distribution, scanning and  checking voicemail. ",
     "Address":"1118.01 Soffer Family CRC        Medicine - Gastroenterology 1 1120 NW 14th St Miami, FL 33136 2107",
     "Phone_Number":"(305)243-5199 Ext.",
     "Employer":"LAW SCHOOL, Elvira Vilaboy",
     "Skills":"Attentive to detail, Work well with data, Copying/Collating, Data entry, Filing"
   },
   {
-    "Job_Title":"office assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":10,
     "Min_Hours":15,
     "Max_Hours":20,
-    "Job_Desc":"Seeking Office Assistant to handle clerical work. Student will be filing,  typing correspondence, entering data, mailing distribution, scanning and  checking voicemail. ",
+    "Job_Desc":"Seeking Office Asst. to handle clerical work. Student will be filing,  typing correspondence, entering data, mailing distribution, scanning and  checking voicemail. ",
     "Address":"1118.01 Soffer Family CRC        Medicine - Gastroenterology 1 1120 NW 14th St Miami, FL 33136 2107",
     "Phone_Number":"(305)243-5199 Ext.",
     "Employer":"SCHOOL OF EDUCATION, Marilyn deNarvaez",
     "Skills":"Attentive to detail, Work well with data, Copying/Collating, Data entry, Filing"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9.09,
     "Max_Pay":9.09,
     "Min_Hours":15,
     "Max_Hours":20,
-    "Job_Desc":"Looking for a responsible person, well organized with good phone &  interpersonal skills to assit in administrative duties, reception, course  enrollments and to assist with set up and registration of Continuing  medical Education courses. Must be proficient with all MS Office programs.  Social media and web html a plus. Prefer Junior or Senior. Job located at  the Medical campus. Some Saturdays and Sundays are required. ",
+    "Job_Desc":"Looking for a responsible person, well organized with good phone &  interpersonal skills to Assist in administrative duties, reception, course  enrollments and to assist with set up and registration of Continuing  medical Education courses. Must be proficient with all MS Office programs.  Social media and web html a plus. Prefer Junior or Senior. Job located at  the Medical campus. Some Saturdays and Sundays are required. ",
     "Address":"470 JMH-Highland Prof         Family Medicine & Community He 1801 NW 9th Ave Miami, FL 33136 1101",
     "Phone_Number":"(305)243-4751 Ext.",
     "Employer":"MRS Asma Aftab, Department of FAMILY MEDICINE & COMMUNITY HE",
     "Skills":" Excel, MS Word, Attentive to detail, Communication (Oral), Thorough, Data entry, Filing"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":15,
     "Max_Hours":20,
-    "Job_Desc":"Department at the Medical Campus is seeking a Student Assistant who will  provide administrative support to the Reseach Manager and Coordinators in  the area of data entry, making copies, filing, answering phones, and  assisting the manager with other duties as assigned. Basic computer skills  are required to fulfill the functions of the job. Interest or experience  in Clinical Research is preferred. If interested, please send a CV to  Nicole at nbrenson@med.miami.edu",
+    "Job_Desc":"Department at the Medical Campus is seeking a Student Asst. who will  provide administrative support to the Reseach Manager and Coordinators in  the area of data entry, making copies, filing, answering phones, and  assisting the manager with other duties as assigned. Basic computer skills  are required to fulfill the functions of the job. Interest or experience  in Clinical Research is preferred. If interested, please send a CV to  Nicole at nbrenson@med.miami.edu",
     "Address":"3308R JMH-Mental Health        (305)355-8186 Ext. Medical Systems Integration Of 1695 NW 9th Ave Miami, FL 33136 1409 ",
     "Phone_Number":"(305)355-8186 Ext.",
     "Employer":"MRS Maria Aldana, Department of CIVIL, ARCHITECTURAL & ENV ENG",
@@ -1982,7 +1995,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":16,
     "Max_Hours":16,
-    "Job_Desc":"We are seeking a student assistant to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
+    "Job_Desc":"We are seeking a student Asst. to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
     "Address":"113 Rainbow College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-2542",
     "Employer":"MS Milagros Cardoso, Department of ART & ART HISTORY",
@@ -1995,7 +2008,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":16,
     "Max_Hours":16,
-    "Job_Desc":"We are seeking a student assistant to perform the following duties; Sit and monitor the gallery during open hours. Greeting gallery visitors, overseeing the artwork, keeping gallery clean and presentable. Other duties as assigned. Willing to accept applicants seeking to work two to three days out of the schedule. If interested, please contact Milly Cardoso Telephone number:305-284-3161 E-mail: m.cardoso1@miami.edu (09)",
+    "Job_Desc":"We are seeking a student Asst. to perform the following duties; Sit and monitor the gallery during open hours. Greeting gallery visitors, overseeing the artwork, keeping gallery clean and presentable. Other duties as assigned. Willing to accept applicants seeking to work two to three days out of the schedule. If interested, please contact Milly Cardoso Telephone number:305-284-3161 E-mail: m.cardoso1@miami.edu (09)",
     "Address":"113 Rainbow, College of A&S - Art & Art His, 1540 Levante Ave, Coral Gables, FL 33146 2417",
     "Phone_Number":"3052842542",
     "Employer":"ART & ART HISTORY, Milly Cardoso",
@@ -2008,7 +2021,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":16,
     "Max_Hours":16,
-    "Job_Desc":"We are seeking a student assistant to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
+    "Job_Desc":"We are seeking a student Asst. to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
     "Address":"113 Rainbow\t College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-2542",
     "Employer":"MS Milagros Cardoso, Department of ART & ART HISTORY",
@@ -2021,14 +2034,14 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":16,
     "Max_Hours":16,
-    "Job_Desc":"We are seeking a student assistant to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
+    "Job_Desc":"We are seeking a student Asst. to perform the following duties;  Sit and monitor the gallery during open hours. Greeting gallery visitors,  overseeing the artwork, keeping gallery clean and presentable. Other duties  as assigned. Willing to accept applicants seeking to work two to three days  out of the schedule.  If interested, please contact Milly Cardoso Telephone number:305-284-3161  E-mail: m.cardoso1@miami.edu (09) ",
     "Address":"113 Rainbow\t College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-2542",
     "Employer":"ART & ART HISTORY, Milly Cardoso",
     "Skills":"Events/Promotions, Public Relations, Public Speaking, Helping/Serving others, Communication (Oral), Communication (Written), Cooperative"
   },
   {
-    "Job_Title":"Concessions Manager Assistant",
+    "Job_Title":"Concessions Manager Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
@@ -2054,7 +2067,7 @@ window.DB = [
     "Skills":"Miscellaneous Skills"
   },
   {
-    "Job_Title":"programer",
+    "Job_Title":"Programmer",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2064,10 +2077,10 @@ window.DB = [
     "Address":"230D Architecture 48\t School of Architecture -STA 1223 Dickinson Dr Coral Gables, FL 33146 2501",
     "Phone_Number":"(305)284-5080 Ext.",
     "Employer":"SCHOOL OF ARCHITECTURE, Chris Chung",
-    "Skills":"Graphics/Design, Database programs, Java Script, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
+    "Skills":"Graphics/Design, Database programs, Javascript, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"programer",
+    "Job_Title":"Programmer",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2077,10 +2090,10 @@ window.DB = [
     "Address":"230D Architecture 48\t School of Architecture -STA 1223 Dickinson Dr Coral Gables, FL 33146 2501",
     "Phone_Number":"(305)284-5080 Ext.",
     "Employer":"SCHOOL OF ARCHITECTURE, Chris Chung",
-    "Skills":"Graphics/Design, Database programs, Java Script, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
+    "Skills":"Graphics/Design, Database programs, Javascript, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2093,7 +2106,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Other",
     "Min_Pay":8.5,
     "Max_Pay":10,
@@ -2194,7 +2207,7 @@ window.DB = [
     "Address":"230D Architecture 48        School of Architecture -STA 1223 Dickinson Dr Coral Gables, FL 33146 2501",
     "Phone_Number":" (305)284-5080 Ext.",
     "Employer":"MR Christopher Chung, Department of SCHOOL OF ARCHITECTURE",
-    "Skills":"Graphics/Design, Database programs, Java Script, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
+    "Skills":"Graphics/Design, Database programs, Javascript, Helping/Serving others, Artistic, Attentive to detail, Communication (Oral)"
   },
   {
     "Job_Title":"Quality Control Assistants",
@@ -2207,7 +2220,7 @@ window.DB = [
     "Address":"148 Ungar UMIT - Academic Technology -ST 1365 Memorial Dr Coral Gables, FL 33146 2508",
     "Phone_Number":"(305)284-2789 Ext.",
     "Employer":"MS Peter Martinez, Department of INFORMATION SYSTEMS",
-    "Skills":"HTML Programming, Java Script, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
+    "Skills":"HTML Programming, Javascript, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
     "Job_Title":"Quality Control Assistants",
@@ -2220,10 +2233,10 @@ window.DB = [
     "Address":"148 Ungar, UMIT - Academic Technology -ST, 1365 Memorial Dr, Coral Gables, FL 33146 2509",
     "Phone_Number":"3052842789",
     "Employer":"MS Peter Martinez, Department of INFORMATION SYSTEMS",
-    "Skills":"HTML Programming, Java Script, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
+    "Skills":"HTML Programming, Javascript, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2236,72 +2249,72 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"Student assistant needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
+    "Job_Desc":"Student Asst. needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
     "Address":"111 Jenkins\t SBA - Executive Education -STA 5250 University Dr Coral Gables, FL 33146 2000",
     "Phone_Number":"(305)284-5670 Ext.",
     "Employer":"MS Andrea Rachelle Santos, Department of OPHTHALMOLOGY",
     "Skills":"Events/Promotions, Public Relations, Excel, MS Word, Powerpoint, Helping/Serving others, Spanish"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an assistant for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
+    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an Asst. for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
     "Address":"350 Gables One Tower\t UMIT - ERP - Change Management 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-5474",
     "Employer":"MR Edward Cruz, Department of SR VICE PROVOST-UNDERGRADUATE",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":12,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an assistant for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
+    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an Asst. for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
     "Address":"350 Gables One Tower\t UMIT - ERP - Change Management 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-5474",
     "Employer":"LAW LIBRARY, Maria Serrano",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant, Communications",
+    "Job_Title":"Student Asst., Communications",
     "Department":"Administrative Offices",
     "Min_Pay":8.05,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an assistant for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
+    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with  the projects (including Workday). The primary role is to coordinate and  execute internal communications and assist with messaging efforts for the  Workday project. You will report to the Workday projects Communications  Manager and serve as an Asst. for internal communications.  Duties include, but are not limited to: Assisting in writing content for  print and web. Assisting at UMIT events, as needed. Maintaining the Workday  project branding. Please email Lorilei Barsh at lorilei@miami.edu ",
     "Address":"350 Gables One Tower UMIT - ERP - Change Management 1320 S Dixie Hwy Coral Gables, FL 33146 2926",
     "Phone_Number":"(305)284-5474",
     "Employer":"MS Lorilei Barsh, Department of ENTERPRISE RESOURCE PLANNING",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant, Communications",
+    "Job_Title":"Student Asst., Communications",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with the projects (including Workday). The primary role is to coordinate and execute internal communications and assist with messaging efforts for the Workday project. You will report to the Workday projects Communications Manager and serve as an assistant for internal communications. Duties include, but are not limited to: Assisting in writing content for print and web. Assisting at UMIT events, as needed. Maintaining the Workday project branding. Please email Lorilei Barsh at lorilei@miami.edu",
+    "Job_Desc":"UM IT Dept. is seeking a Communications student employee to assist with the projects (including Workday). The primary role is to coordinate and execute internal communications and assist with messaging efforts for the Workday project. You will report to the Workday projects Communications Manager and serve as an Asst. for internal communications. Duties include, but are not limited to: Assisting in writing content for print and web. Assisting at UMIT events, as needed. Maintaining the Workday project branding. Please email Lorilei Barsh at lorilei@miami.edu",
     "Address":"350 Gables One Tower, UMIT - ERP - Change Management, 1320 S Dixie Hwy, Coral Gables, FL 33146 2926",
     "Phone_Number":"3052845475",
     "Employer":"MS Lorilei Barsh, Department of ENTERPRISE RESOURCE PLANNING",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Technology Student Assistant",
+    "Job_Title":"Technology Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":9,
     "Max_Pay":18,
@@ -2314,7 +2327,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Technology Student Assistant",
+    "Job_Title":"Technology Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2327,7 +2340,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Technology Student Assistant",
+    "Job_Title":"Technology Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2340,7 +2353,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct"
   },
   {
-    "Job_Title":"technology student assistant",
+    "Job_Title":"Technology student Asst.",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2353,7 +2366,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct"
   },
   {
-    "Job_Title":"Technology Student Assistant",
+    "Job_Title":"Technology Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2366,7 +2379,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Classifying/Organizing, Communication (Oral), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Technology Student Assistant",
+    "Job_Title":"Technology Student Asst.",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2418,78 +2431,78 @@ window.DB = [
     "Skills":"Public Relations, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"Student assistant needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
+    "Job_Desc":"Student Asst. needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
     "Address":"111 Jenkins SBA - Executive Education -STA 5250 University Dr Coral Gables, FL 33146 2000",
     "Phone_Number":"(305)284-5670 Ext.",
     "Employer":"MS Andrea Rachelle Santos, Department of OPHTHALMOLOGY",
     "Skills":"Events/Promotions, Public Relations, Excel, MS Word, Powerpoint, Helping/Serving others, Spanish"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":12,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"Student assistant needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
+    "Job_Desc":"Student Asst. needed for the following duties: Making signage, name  tents, name badges, putting together premiums, program material preparation  , matrices and evaluations. Event set up and support is expected.  General office duties include filing, photocopying, answering phones and  providing administrative support. Must possess good working knowledge of  Microsoft Word, Power Point and Excel. Bilingual in Spanish preferred but  not required. Please contact Viena Perez Telephone number: (305) 284-9176  E-mail: vperez@bus.miami.edu ",
     "Address":"111 Jenkins SBA - Executive Education -STA 5250 University Dr Coral Gables, FL 33146 2000",
     "Phone_Number":"(305)284-5670 Ext.",
     "Employer":"ENTERPRISE RESOURCE PLANNING, Lorilei Barsh",
     "Skills":"Events/Promotions, Public Relations, Excel, MS Word, Powerpoint, Helping/Serving others, Spanish"
   },
   {
-    "Job_Title":"Video Assistant",
+    "Job_Title":"Video Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.05,
     "Max_Pay":10,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"We are seeking a Video Assistant to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
+    "Job_Desc":"We are seeking a Video Asst. to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
     "Address":"236 Hecht Athletic Ctr Athletics - Business Operation 5821 San Amaro Dr Coral Gables, FL 33146 2402",
     "Phone_Number":"(305)284-2163",
     "Employer":"MR R Rossetti, Department of ATHLETICS ADMINISTRATION",
     "Skills":"Video Production, Events/Promotions, Public Relations, Helping/Serving others, Attentive to detail, Communication (Written), Conveying Understanding"
   },
   {
-    "Job_Title":"Video Assistant",
+    "Job_Title":"Video Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"We are seeking a Video Assistant to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
+    "Job_Desc":"We are seeking a Video Asst. to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
     "Address":"236 Hecht Athletic Ctr Athletics - Business Operation 5821 San Amaro Dr Coral Gables, FL 33146 2402",
     "Phone_Number":"(305)284-2163",
     "Employer":"MR R Rossetti, Department of ATHLETICS ADMINISTRATION",
     "Skills":"Video Production, Events/Promotions, Public Relations, Helping/Serving others, Attentive to detail, Communication (Written), Conveying Understanding"
   },
   {
-    "Job_Title":"Video assistant",
+    "Job_Title":"Video Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"We are seeking a Video Assistant to assist the Video Coordinator with all duties related to Football practices and games. Assist Videographers with Football practices and games - 45%. Assist in packing of Video equipment for away and home games - 25%. Assist with all duties as they relate to the Video Services Room - 25%. Other duties as assigned - 5%. Must be available between 8am - 12pm during the school year. If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
+    "Job_Desc":"We are seeking a Video Asst. to assist the Video Coordinator with all duties related to Football practices and games. Assist Videographers with Football practices and games - 45%. Assist in packing of Video equipment for away and home games - 25%. Assist with all duties as they relate to the Video Services Room - 25%. Other duties as assigned - 5%. Must be available between 8am - 12pm during the school year. If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
     "Address":"236 Hecht Athletic Ctr Athletics - Business Operation 5821 San Amaro Dr, Coral Gables, FL 33146 2402",
     "Phone_Number":"(305)284-2163",
     "Employer":"ATHETLICS ADMIN, Andrew Rosettti",
     "Skills":"Video Production, Events/Promotions, Public Relations, Helping/Serving others, Attentive to detail, Communication (Written), Conveying Understanding"
   },
   {
-    "Job_Title":"Video assistant",
+    "Job_Title":"Video Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":8.05,
     "Min_Hours":20,
     "Max_Hours":20,
-    "Job_Desc":"We are seeking a Video Assistant to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
+    "Job_Desc":"We are seeking a Video Asst. to assist the Video Coordinator with all  duties related to Football practices and games. Assist Videographers with  Football practices and games - 45%. Assist in packing of Video equipment  for away and home games - 25%. Assist with all duties as they relate to  the Video Services Room - 25%. Other duties as assigned - 5%.  Must be available between 8am - 12pm during the school year.  If interested, please contact R Andrew Rosettti Telephone number:  786-390-5042 E-mail: a.rossetti@miami.edu (01) ",
     "Address":"236 Hecht Athletic Ctr Athletics - Business Operation 5821 San Amaro Dr Coral Gables, FL 33146 2402",
     "Phone_Number":"(305)284-2163",
     "Employer":"ATHETLICS ADMIN, Andrew Rosettti",
@@ -2535,20 +2548,20 @@ window.DB = [
     "Skills":"Food preparation, Helping/Serving others, Waiter/Waitress, Attentive to detail, Classifying/Organizing, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":20,
     "Max_Hours":99,
-    "Job_Desc":"The department of Dermatology and Cutaneous Surgery is looking for a  responsible, well-organized student assistant with excellent telephone and  customer service skills to provide administrative support. Must know MS  Office (word, excel, powerpoint). Job is at Medical Campus.Please send  CV to mpalomino@med.miami.edu. We look forward to hearing from you",
+    "Job_Desc":"The department of Dermatology and Cutaneous Surgery is looking for a  responsible, well-organized student Asst. with excellent telephone and  customer service skills to provide administrative support. Must know MS  Office (word, excel, powerpoint). Job is at Medical Campus.Please send  CV to mpalomino@med.miami.edu. We look forward to hearing from you",
     "Address":"2023A Rosenstiel Med Sci         Dermatology - Admin Office -ST 1600 NW 10th Ave Miami, FL 33136 1015",
     "Phone_Number":"(305)243-4472 Ext.",
     "Employer":"MS Saray Whittaker, Department of ADMINISTRATION",
     "Skills":"Excel, Powerpoint, Time Management, Reception/Customer Serv, Telephone skills"
   },
   {
-    "Job_Title":"Assistant to the Artistic Director",
+    "Job_Title":"Asst. to the Artistic Director",
     "Department":"Other",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -2561,7 +2574,7 @@ window.DB = [
     "Skills":"Events/Promotions, Record keeping, Excel, MS Word, PhotoShop, Attentive to detail, Classifying/Organizing"
   },
   {
-    "Job_Title":"help desk",
+    "Job_Title":"Help desk",
     "Department":"Schools and Libraries",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2574,7 +2587,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"help desk",
+    "Job_Title":"Help desk",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2639,7 +2652,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Early Childhood Classroom Assistant",
+    "Job_Title":"Early Childhood Classroom Asst.",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2652,7 +2665,7 @@ window.DB = [
     "Skills":"Teaching, Working with children"
   },
   {
-    "Job_Title":"3D shop assistant",
+    "Job_Title":"3D shop Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.49,
     "Max_Pay":8.49,
@@ -2665,7 +2678,7 @@ window.DB = [
     "Skills":"Helping/Serving others, Communication (Oral), Communication (Written), Cooperative, Independent, Organized, Resourceful"
   },
   {
-    "Job_Title":"Communications Assistant",
+    "Job_Title":"Communications Asst.",
     "Department":"Other",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2724,8 +2737,8 @@ window.DB = [
     "Min_Hours":1,
     "Max_Hours":10,
     "Job_Desc":"Student Fundraisers are responsible for calling constituents of the  institution, providing institutional updates, stewarding fundraising  efforts and updating contact information. Students will utilize an  automated calling system in a professional and enthusiastic environment.  If interested, please contact Jhenell Kitson Telephone number:  305-284-2045 E-mail: jhenell.kitson@ruffalocody.com (09) ",
-    "Address":"contact employer",
-    "Phone_Number":"contact employer",
+    "Address":"Contact employer",
+    "Phone_Number":"Contact employer",
     "Employer":"Jhenell Kitson, Department of ALUMNI RELATIONS",
     "Skills":"Fundraising, Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
@@ -2737,8 +2750,8 @@ window.DB = [
     "Min_Hours":1,
     "Max_Hours":10,
     "Job_Desc":"Student Fundraisers are responsible for calling constituents of the  institution, providing institutional updates, stewarding fundraising  efforts and updating contact information. Students will utilize an  automated calling system in a professional and enthusiastic environment.  If interested, please contact Jhenell Kitson Telephone number:  305-284-2045 E-mail: jhenell.kitson@ruffalocody.com (09) ",
-    "Address":"contact employer",
-    "Phone_Number":"contact employer",
+    "Address":"Contact employer",
+    "Phone_Number":"Contact employer",
     "Employer":"ALUMNI RELATIONS, Jhenell Kitson",
     "Skills":"Fundraising, Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative"
   },
@@ -2795,7 +2808,7 @@ window.DB = [
     "Skills":"Graphics/Design, Layout/Paste-up, Photography, Video Production, Advertising, Marketing, Public Relations"
   },
   {
-    "Job_Title":"Laboratory Assistant",
+    "Job_Title":"Laboratory Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":9.15,
     "Max_Pay":9.15,
@@ -2821,7 +2834,7 @@ window.DB = [
     "Skills":""
   },
   {
-    "Job_Title":"peer tutor",
+    "Job_Title":"Peer tutor",
     "Department":"Schools and Libraries",
     "Min_Pay":8.25,
     "Max_Pay":12,
@@ -2860,7 +2873,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"peer tutor",
+    "Job_Title":"Peer tutor",
     "Department":"Other",
     "Min_Pay":8.25,
     "Max_Pay":12,
@@ -2912,7 +2925,7 @@ window.DB = [
     "Skills":"Public Speaking, Database programs, Helping/Serving others, Research, Analytical Skills, Assertive, Attentive to detail"
   },
   {
-    "Job_Title":"Research Assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":15,
@@ -2925,7 +2938,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Spanish, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"research assistant",
+    "Job_Title":"Research Asst.",
     "Department":"Student Activities",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -2938,7 +2951,7 @@ window.DB = [
     "Skills":"Public Relations, Database programs, Helping/Serving others, Spanish, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"Social media office assistant",
+    "Job_Title":"Social media office Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":9,
     "Max_Pay":9.1,
@@ -2951,7 +2964,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Developing ideas"
   },
   {
-    "Job_Title":"Social media office assistant",
+    "Job_Title":"Social media office Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2964,7 +2977,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Developing ideas"
   },
   {
-    "Job_Title":"Social media office assistant",
+    "Job_Title":"Social media office Asst.",
     "Department":"Other",
     "Min_Pay":9,
     "Max_Pay":9,
@@ -2977,20 +2990,20 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Developing ideas"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":12,
     "Max_Pay":12,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Assistant to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. Performs other  duties as assigned. Please contact Kathy at k.raymond@med.miami.edu ",
+    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Asst. to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. Performs other  duties as assigned. Please contact Kathy at k.raymond@med.miami.edu ",
     "Address":"511 Gautier Med Rsch Medicine - Gastroenterology 1 1011 NW 15th St Miami, FL 33136 1019",
     "Phone_Number":"(305)243-6404 Ext.",
     "Employer":"MS Maria Riedmiller, Department of VP REAL ESTATE & FACILITIES",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":10,
     "Max_Pay":10,
@@ -3003,26 +3016,26 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Assistant to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job.",
+    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Asst. to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job.",
     "Address":"511 Gautier Med Rsch         Medicine - Gastroenterology 1 1011 NW 15th St Miami, FL 33136 1019",
     "Phone_Number":"(305)243-6404 Ext.",
     "Employer":"CIVIL, ARCHITECTURAL & ENV ENG",
     "Skills":"MS Word, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.5,
     "Max_Pay":9.09,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Assistant to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. Performs other  duties as assigned. Please contact Kathy at k.raymond@med.miami.edu  ",
+    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Asst. to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. Performs other  duties as assigned. Please contact Kathy at k.raymond@med.miami.edu  ",
     "Address":"511 Gauter Med Rsch, Medicine - Gastroenterology 1, 1011 NW 15th St, Miami, FL 33136 1019",
     "Phone_Number":"3052436404",
     "Employer":"MS Ana Aguilar, Department of INTENSIVE ENGLISH PROGRAMS",
@@ -3074,7 +3087,7 @@ window.DB = [
     "Max_Pay":12,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"You will be working with the Associate and Assistant Director to plan,  develop, and coordinate communications for publications, web, marketing  materials, and other projects to promote the University of Miami mission.  Responsibilities inculde; Write for an array of media - primarily social  media but also email, print publications, and web. Find and develop leads  and campus stories, which may include profiles, with high visibility and  exposure. Please email your resume 2-3 writing samples, & cover letter  telling us what you would bring to this position to marcom@miami.edu ",
+    "Job_Desc":"You will be working with the Associate and Asst. Director to plan,  develop, and coordinate communications for publications, web, marketing  materials, and other projects to promote the University of Miami mission.  Responsibilities inculde; Write for an array of media - primarily social  media but also email, print publications, and web. Find and develop leads  and campus stories, which may include profiles, with high visibility and  exposure. Please email your resume 2-3 writing samples, & cover letter  telling us what you would bring to this position to marcom@miami.edu ",
     "Address":"2275 Whitten UC, Enrollment Mgmt - Marketing -S, 1306 Stanford Dr, Coral Gables, FL 33146",
     "Phone_Number":"3052846804",
     "Employer":"Ms Nichole D'Arco, Department of MARKET RESEARCH",
@@ -3120,7 +3133,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Laboratory Assistant",
+    "Job_Title":"Laboratory Asst.",
     "Department":"Student Activities",
     "Min_Pay":9.15,
     "Max_Pay":9.15,
@@ -3133,13 +3146,13 @@ window.DB = [
     "Skills":"Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct., Independent"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Medical Campus",
     "Min_Pay":9,
     "Max_Pay":9,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Assistant to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. ",
+    "Job_Desc":"The Department of Medicine, GI Division, is seeking a Student Asst. to  work on the Medical Campus to assist in the office of the Chief of the  Division. You will provide administrative support for multiple projects  assisting the Manager, Business Operations. General clerical support such  as data entry, making copies, faxing, maintaining the break room neat and  orderly, opening mail and assisting the manager as assigned. Basic computer  skills are required to fulfill the functions of this job. ",
     "Address":"511 Gautier Med Rsch         Medicine - Gastroenterology 1 1011 NW 15th St Miami, FL 33136 1019",
     "Phone_Number":"305)243-6404 Ext.",
     "Employer":"MRS Maria Aldana, Department of CIVIL, ARCHITECTURAL & ENV ENG",
@@ -3152,14 +3165,14 @@ window.DB = [
     "Max_Pay":12,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"You will be working with the Associate and Assistant Director to plan,  develop, and coordinate communications for publications, web, marketing  materials, and other projects to promote the University of Miami mission.  Responsibilities inculde; Write for an array of media - primarily social  media but also email, print publications, and web. Find and develop leads  and campus stories, which may include profiles, with high visibility and  exposure. Please email your resume 2-3 writing samples, & cover letter  telling us what you would bring to this position to marcom@miami.edu ",
+    "Job_Desc":"You will be working with the Associate and Asst. Director to plan,  develop, and coordinate communications for publications, web, marketing  materials, and other projects to promote the University of Miami mission.  Responsibilities inculde; Write for an array of media - primarily social  media but also email, print publications, and web. Find and develop leads  and campus stories, which may include profiles, with high visibility and  exposure. Please email your resume 2-3 writing samples, & cover letter  telling us what you would bring to this position to marcom@miami.edu ",
     "Address":"2275 Whitten UC Enrollment Mgmt - Marketing -S 1306 Stanford Dr Coral Gables, FL 33146",
     "Phone_Number":"(305)284-6804 Ext.",
     "Employer":"Ms Nichole D'Arco, Department of MARKET RESEARCH",
     "Skills":"Marketing, Public Relations, Helping/Serving others, Analytical Skills, Attentive to detail, Communication (Oral), Communication (Written)"
   },
   {
-    "Job_Title":"3D Shop Assistant",
+    "Job_Title":"3D Shop Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":8.49,
     "Max_Pay":8.49,
@@ -3172,7 +3185,7 @@ window.DB = [
     "Skills":"Helping/Serving others, Communication (Oral), Communication (Written), Cooperative, Independent, Organized, Resourceful"
   },
   {
-    "Job_Title":"3D Shop Assistant",
+    "Job_Title":"3D Shop Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":8.49,
     "Max_Pay":8.49,
@@ -3185,7 +3198,7 @@ window.DB = [
     "Skills":"Helping/Serving others, Communication (Oral), Communication (Written), Cooperative, Independent, Organized, Resourceful"
   },
   {
-    "Job_Title":"3D shop assistant",
+    "Job_Title":"3D shop Asst.",
     "Department":"Other",
     "Min_Pay":8.49,
     "Max_Pay":8.49,
@@ -3295,7 +3308,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"Student assistant needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
+    "Job_Desc":"Student Asst. needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
     "Address":"114 Rainbow College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-6955",
     "Employer":"ART & ART HISTORY, Lamia Khorishid",
@@ -3308,7 +3321,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"Student assistant needed for the following responsibilities; Will be working in a photo lab dark room, mixing chemicals, will be performing computer lab supervision. We prefer someone with photo expierecnce but not required. If interested, please contact Lamia Khorishid Telephone number: 786-393-8448 E-mail: L.khorshid@umiami.edu (04)",
+    "Job_Desc":"Student Asst. needed for the following responsibilities; Will be working in a photo lab dark room, mixing chemicals, will be performing computer lab supervision. We prefer someone with photo expierecnce but not required. If interested, please contact Lamia Khorishid Telephone number: 786-393-8448 E-mail: L.khorshid@umiami.edu (04)",
     "Address":"114 Rainbow, College of A&S - Art & Art His, 1540 Levante Ave, Coral Gables, FL 33146 2417",
     "Phone_Number":"3052846855",
     "Employer":"ART & ART HISTORY, Lamia Khorishid",
@@ -3321,7 +3334,7 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"Student assistant needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
+    "Job_Desc":"Student Asst. needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
     "Address":"114 Rainbow\t College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-6955",
     "Employer":"Ms Annalise Fernandez, Department of ART & ART HISTORY",
@@ -3334,14 +3347,14 @@ window.DB = [
     "Max_Pay":8.05,
     "Min_Hours":1,
     "Max_Hours":10,
-    "Job_Desc":"Student assistant needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
+    "Job_Desc":"Student Asst. needed for the following responsibilities; Will be  working in a photo lab dark room, mixing chemicals, will be performing  computer lab supervision. We prefer someone with photo expierecnce but not  required.  If interested, please contact Lamia Khorishid Telephone number:  786-393-8448 E-mail: L.khorshid@umiami.edu (04) ",
     "Address":"114 Rainbow\t College of A&S - Art & Art His 1540 Levante Ave Coral Gables, FL 33146 2417",
     "Phone_Number":"(305)284-6955",
     "Employer":"Ms Annalise Fernandez, Department of ART & ART HISTORY",
     "Skills":"Photography, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Administrative Offices",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -3354,7 +3367,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Schools and Libraries",
     "Min_Pay":11,
     "Max_Pay":11,
@@ -3367,7 +3380,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"office assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Student Activities",
     "Min_Pay":9,
     "Max_Pay":10,
@@ -3380,7 +3393,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Other",
     "Min_Pay":8.05,
     "Max_Pay":11,
@@ -3393,7 +3406,7 @@ window.DB = [
     "Skills":"Public Relations, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Enthusiastic"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":10,
@@ -3406,7 +3419,7 @@ window.DB = [
     "Skills":"Database programs, Helping/Serving others, Attentive to detail, Communication (Oral), Communication (Written), Cooperative, Follow detail instruct."
   },
   {
-    "Job_Title":"Archives & Research Center Assistant",
+    "Job_Title":"Archives & Research Center Asst.",
     "Department":"Other",
     "Min_Pay":13,
     "Max_Pay":13,
@@ -3419,26 +3432,26 @@ window.DB = [
     "Skills":"Archives, Cataloging, Research, Attentive to detail, Classifying/Organizing, Conveying Understanding, Enthusiastic"
   },
   {
-    "Job_Title":"Development Office Assistant",
+    "Job_Title":"Development Office Asst.",
     "Department":"Other",
     "Min_Pay":13,
     "Max_Pay":13,
     "Min_Hours":8,
     "Max_Hours":30,
-    "Job_Desc":"HistoryMiami is looking for a Development Office Assistant to assist with  clerical work and prospect research. Will interact with patrons. Provide  assistance with special events. This position assists HistoryMiami to  fulfill its mission to educate the public about the history of South  Florida and the Caribbean. This is a community service position. Federal  Work Study is a requirement",
+    "Job_Desc":"HistoryMiami is looking for a Development Office Asst. to assist with  clerical work and prospect research. Will interact with patrons. Provide  assistance with special events. This position assists HistoryMiami to  fulfill its mission to educate the public about the history of South  Florida and the Caribbean. This is a community service position. Federal  Work Study is a requirement",
     "Address":"37-K, Office of Student Employment, Coral Gables, FL 33124",
     "Phone_Number":"305-375-1492",
     "Employer":"Holly Davis of Department of HistoryMiami",
     "Skills":"Archives, Cataloging, Reference, Research, Analytical Skills, Attentive to detail, Classifying/Organizing"
   },
   {
-    "Job_Title":"Marketing/Communications Assistant",
+    "Job_Title":"Marketing/Communications Asst.",
     "Department":"Other",
     "Min_Pay":13,
     "Max_Pay":13,
     "Min_Hours":8,
     "Max_Hours":40,
-    "Job_Desc":"HistoryMiami is looking for a Marketing and Communications Assistant for  public relationship and marketing of museum programs. Update of website and  social media. Graphics design. This position assists HistoryMiami to  fulfill its mission to educate the public about the history of South  Florida and the Caribbean. This is a community service position. Must have  Federal Work Study.",
+    "Job_Desc":"HistoryMiami is looking for a Marketing and Communications Asst. for  public relationship and marketing of museum programs. Update of website and  social media. Graphics design. This position assists HistoryMiami to  fulfill its mission to educate the public about the history of South  Florida and the Caribbean. This is a community service position. Must have  Federal Work Study.",
     "Address":"37-K, Office of Student Employment, Coral Gables, FL 33124",
     "Phone_Number":"305-375-1492",
     "Employer":"Roxanne Cappello of Department of HistoryMiami",
@@ -3458,7 +3471,7 @@ window.DB = [
     "Skills":"Archives, Cataloging, Reference, Research, Analytical Skills, Assertive, Attentive to detail"
   },
   {
-    "Job_Title":"Student Assistant",
+    "Job_Title":"Student Asst.",
     "Department":"Student Activities",
     "Min_Pay":8.05,
     "Max_Pay":10,
@@ -3484,13 +3497,13 @@ window.DB = [
     "Skills":"Marketing"
   },
   {
-    "Job_Title":"Office Assistant",
+    "Job_Title":"Office Asst.",
     "Department":"Medical Campus",
     "Min_Pay":10,
     "Max_Pay":10,
     "Min_Hours":1,
     "Max_Hours":20,
-    "Job_Desc":"The division for Continuing Medical Education is searching for two office  assistants to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks.",
+    "Job_Desc":"The division for Continuing Medical Education is searching for two office  asst. to help review emails, process tasks by category, save documents  onto a shared drive, process pre- and post-sessions, input information to  tracker, and other office tasks.",
     "Address":"1026 Jackson Towers         Continuing Medical Education - 1500 NW 12th Ave Miami, FL 33136 1051",
     "Phone_Number":"(305)243-6717 Ext.",
     "Employer":"MS Anouk Gachelin, Department of MEDICINE",
