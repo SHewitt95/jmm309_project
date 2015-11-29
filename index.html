@@ -42,9 +42,11 @@
 
       <div id="database">
 
-        <div class="database-rows">
+
+        <table class="database-rows">
           <!-- Content will go here -->
-        </div> <!-- End database-rows -->
+
+        </table> <!-- End database-rows -->
 
       </div> <!-- End database -->
 
@@ -56,8 +58,19 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
     <script type="text/html" id="row-template">
+      <table class="t-head">
+        <tr>
+          <th on-click="sort:Job_Title">Job Title</th>
+          <th on-click="sort:Min_Pay">Min. Pay</th>
+          <th on-click="sort:Max_Pay">Max. Pay</th>
+          <th on-click="sort:Min_Hours">Min. Hours</th>
+          <th on-click="sort:Max_Hours">Max. Hours</th>
+          <th on-click="sort:Department">Department</th>
+        </tr>
+      </table>
+
       <div class="temp-row" id="accordion">
-        {{#each myJobs}}
+        {{#each sort(myJobs, myColumn)}}
         <tr>
           <td>{{this.Job_Title}}</td>
           <td>${{this.Min_Pay}}</td>

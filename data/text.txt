@@ -1,0 +1,13 @@
+{
+  "Job_Title":"Job Title",
+  "Department":"Department",
+  "Min_Pay": "",
+  "Max_Pay": "$$",
+  "Min_Hours": "Min. Hours",
+  "Max_Hours": "Max. Hours",
+  "Job_Desc":"Job Description",
+  "Address":"Location of Employment",
+  "Phone_Number":"Job's Phone Number",
+  "Employer":"Job's Employer",
+  "Skills":"List of the job's desired skills. Here is a list of all skills listed on Canelink: Accounting/Bookkeeping, Advertising, Analytical Skills, Archives, Artistic, Assertive, Attentive to detail, Banking, Bilingual, Cataloging, Classifying/Organizing, Communication (Oral), Communication (Visual), Communication (Written), Computer Networking, Conveying Understanding, Cooperative, Copying/Collating, Data entry, Database programs, Developing ideas, Email/Internet, Enthusiastic, Events/Promotions, Excel, FAX, Filing, Follow detail instruct, Food preparation, Fundraising, Graphics/Design, Hardware - IBM, Helping/Serving others, HTML Programming, Independent, Javascript, Layout/Paste-up,Logical, Marketing, Mentoring/Peer Counsel, Microsoft Office Skills, Miscellaneous Skills, Motivating Others, MS Word, Organized, Phone sales/Telemarketing, Photography, PhotoShop, Planning/Arranging, Powerpoint, Problem Solving, Programming, Public Relations, Public Speaking, Reception/Customer Serv, Record keeping, Reference, Research, Resourceful, Shelving, Sociable, Spanish, Teaching, Telephone skills, Thorough, Time Management, Tolerance - Repetition, Troubleshooting, Tutoring, Typing, Video Production, Waiter/Waitress, Windows, WordPerfect, Work well with data, Working with children"
+},

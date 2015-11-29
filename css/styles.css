@@ -158,3 +158,19 @@ td {
 .show {
 	display: block;
 }
+
+.t-head {
+	width: 100%;
+}
+
+.t-head p {
+	margin-right: 0;
+	padding: 0;
+	display: inline-block;
+	width: 100%;
+}
+
+#accordion {
+	font-size: 0.75em;
+	text-align: left;
+}
