@@ -100,6 +100,12 @@ header #main-page {
   margin-top: 0.5em;
 }
 
+.text h2 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 .interactive {
   margin-top: 2em;
   display: block;
@@ -153,6 +159,8 @@ td {
 
 .t-head {
 	width: 100%;
+	position: relative;
+	left: 3em;
 }
 
 .t-head p {
@@ -162,8 +170,13 @@ td {
 	width: 100%;
 }
 
+.t-head tr {
+
+}
+
 .t-head tr th {
 	cursor: pointer;
+	font-size: 1.25em;
 }
 
 #accordion {
