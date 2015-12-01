@@ -5,11 +5,11 @@ $(document).ready(function() {
     template: "#row-template",
     data: {
       myJobs: DB,
+      
       // Code from Ractive.js tutorial: http://learn.ractivejs.org/list-sections/5
       sort: function ( array, sortColumn ) {
         array = array.slice();
-        console.log(sortColumn);
-
+        //console.log(sortColumn);
         return array.sort( function ( a, b ) {
           if (sortColumn == "Min_Pay" || sortColumn == "Min_Hours") {
             // Sorts from least to greatest.

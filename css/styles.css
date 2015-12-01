@@ -100,22 +100,22 @@ header #main-page {
   margin-top: 0.5em;
 }
 
-#interactive {
+.interactive {
   margin-top: 2em;
   display: block;
   width: 100%;
 }
 
-#interactive .bar_chart {
+.interactive .bar_chart {
 
 }
 
-#interactive .bar_chart svg {
+.interactive .bar_chart svg {
   min-height: 300px;
   min-width: 300px;
 }
 
-#interactive .bar_chart svg rect {
+.interactive .bar_chart svg rect {
 
 }
 
@@ -142,21 +142,13 @@ th, td {
 }
 
 td {
-	width: 300px;
+	width: 150px;
 	text-align: center;
 }
 
 .more-info {
 	/*display: none;*/
 
-}
-
-.hide {
-	display: none;
-}
-
-.show {
-	display: block;
 }
 
 .t-head {
@@ -173,4 +165,99 @@ td {
 #accordion {
 	font-size: 0.75em;
 	text-align: left;
+}
+
+.extra-info-container {
+	height: auto;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.first-half {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.second-half {
+	float: right;
+	display: block;
+	height: auto;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.box {
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: 2px solid black;
+	background-color: #007FFF; /* Slate Blue */
+	padding-bottom: 5em;
+}
+
+.box1 {
+	/*background-color: blue;*/
+}
+
+.box2 {
+	/*background-color: red;*/
+}
+
+.box3 {
+/*	background-color: green;*/
+}
+
+.box4 {
+	/*background-color: purple;*/
+}
+
+.info-dept {
+	font-size: 2.5em;
+}
+
+p.info-head {
+	display: block;
+	font-size: 1.25em;
+	color: white;
+	text-align: center;
+}
+
+p.info {
+	display: block;
+	font-size: 3em;
+	color: white;
+	position: relative;
+	bottom: 0.5em;
+	right: 0.75em;
+}
+
+.arrow {
+	width: 50px;
+}
+
+.arrow:hover {
+	cursor: pointer;
+}
+
+.left-arrow {
+	position: relative;
+	top: 21em;
+	right: 3.5em;
+}
+
+.right-arrow {
+	position: relative;
+	top: 21em;
+	left: 26.75em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }
