@@ -162,6 +162,10 @@ td {
 	width: 100%;
 }
 
+.t-head tr th {
+	cursor: pointer;
+}
+
 #accordion {
 	font-size: 0.75em;
 	text-align: left;
