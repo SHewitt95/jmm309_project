@@ -70,7 +70,7 @@ header #main-page {
 }
 
 #page {
-  width: 70%;
+  width: 65%;
   height: auto;
   display: block;
   margin: 50px auto;
@@ -109,7 +109,13 @@ header #main-page {
 .interactive {
   margin-top: 2em;
   display: block;
-  width: 100%;
+  width: 60%;
+	overflow: visible;
+	position: relative;
+}
+
+.extra-info-container {
+
 }
 
 .interactive .bar_chart {
@@ -184,12 +190,17 @@ td {
 	text-align: left;
 }
 
+.temp-row {
+	height: auto;
+}
+
 .extra-info-container {
 	height: auto;
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 1em;
+	overflow: auto;
 }
 
 .first-half {
@@ -271,8 +282,15 @@ p.info {
 	left: 26.75em;
 }
 
+#button {
+	font-size: 1.5em;
+	display: block;
+	margin: 1em;
+}
+
 .hide {
 	display: none;
+	/*visibility: hidden;*/
 }
 
 .show {
