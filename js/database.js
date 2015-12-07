@@ -33,6 +33,6 @@ $(document).ready(function() {
   var myButton = document.getElementById("button");
 
   //$(".database-rows").addClass("hide");
-  myButton.addEventListener("click", showDB, false);
+  //myButton.addEventListener("click", showDB, false);
 
 })
