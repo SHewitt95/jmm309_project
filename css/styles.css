@@ -108,6 +108,7 @@ header #main-page {
 
 .interactive {
   margin-top: 2em;
+	margin-bottom: 2em;
   display: block;
   width: 60%;
 	overflow: visible;
