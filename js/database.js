@@ -25,14 +25,4 @@ $(document).ready(function() {
     this.set( 'myColumn', column );
   });
 
-
-  function showDB() {
-    $(".database-rows").removeClass("hide");
-  }
-
-  var myButton = document.getElementById("button");
-
-  //$(".database-rows").addClass("hide");
-  //myButton.addEventListener("click", showDB, false);
-
 })

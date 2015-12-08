@@ -112,7 +112,7 @@ header #main-page {
   display: block;
   width: 60%;
 	overflow: visible;
-	position: relative;
+	/*position: relative;*/
 }
 
 .extra-info-container {
