@@ -37,8 +37,7 @@ d3.select(chart).append('svg')
     .selectAll('rect').data(bardata)
     .enter().append('rect')
         .style('fill', 'blue')
-        //.attr('width', xScale.rangeBand())
-        .attr('width', 50 + "px")
+        .attr('width', xScale.rangeBand())
         .attr('height', function(d) {
             return yScale(d);
         })
