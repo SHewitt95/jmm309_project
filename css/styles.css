@@ -128,12 +128,23 @@ header #main-page {
   min-width: 300px;
 }
 
-.interactive .bar_chart svg rect {
-
+.interactive div.x.label {
+	display: block;
+	position: relative;
+	left: 20em;
+	bottom: 0.5em;
+	font-size: 1.25em;
+	font-weight: bold;
 }
 
-.interactive svg g g.tick text {
-	/*transform: rotate(45deg);*/
+.interactive div.y.label {
+	display: block;
+	position: relative;
+	font-size: 1.25em;
+	font-weight: bold;
+	transform: rotate(-90deg);
+	bottom: 30em;
+	right: 21.5em;
 }
 
 #database {
