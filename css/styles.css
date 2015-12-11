@@ -110,7 +110,7 @@ header #main-page {
   margin-top: 2em;
 	margin-bottom: 2em;
   display: block;
-  width: 60%;
+  width: 100%;
 	overflow: visible;
 	/*position: relative;*/
 }
@@ -130,6 +130,10 @@ header #main-page {
 
 .interactive .bar_chart svg rect {
 
+}
+
+.interactive svg g g.tick text {
+	/*transform: rotate(45deg);*/
 }
 
 #database {

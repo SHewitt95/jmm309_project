@@ -14,9 +14,11 @@ $(document).ready(function() {
     // Slides through cards of different departments.
     if ($(this).hasClass("left-arrow")) {
       index--;
+      // Sets slider to end of slide.
       if (index < 0) {index = (cards.length-1)}
     } else {
       index++;
+      // Sets slider to start of slide.
       if (index > (cards.length-1)) {index = 0}
     }
 
