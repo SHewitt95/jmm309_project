@@ -112,11 +112,11 @@ header #main-page {
   display: block;
   width: 100%;
 	overflow: visible;
-	/*position: relative;*/
 }
 
 .extra-info-container {
-
+	position: relative;
+	width: 70%;
 }
 
 .interactive .bar_chart {
