@@ -1,4 +1,4 @@
-// Generates a D3 bar chart.
+/************************************* Generates a D3 bar chart. *************************************/
 
 var data1 = [74, 71, 58, 41, 20, 4, 1], // Jobs per location
   data2 = [10.75,10.24,9.80,9.79,9.53,9.53,8.78], // Average hourly wage
@@ -125,8 +125,49 @@ function normalOpacity(d) {
   d3.select(this).style("opacity", 1);
 }
 
+/************************************* Builds the Job Database. *************************************/
+
+function buildDB() {
+
+  var app = new Ractive({
+    el: ".database-rows",
+    template: "#row-template",
+    data: {
+      myJobs: DB,
+
+      // Code from Ractive.js tutorial: http://learn.ractivejs.org/list-sections/5
+      sort: function ( array, sortColumn ) {
+        array = array.slice();
+        return array.sort( function ( a, b ) {
+          if (sortColumn == "Min_Pay" || sortColumn == "Min_Hours") {
+            // Sorts from least to greatest.
+            return a[ sortColumn ] < b[ sortColumn ] ? -1 : 1;
+          }
+          // Sorts from greatest to least.
+          return a[ sortColumn ] < b[ sortColumn ] ? 1 : -1;
+        });
+      }
+    }
+  });
+
+  app.on( 'sort', function ( event, column ) {
+    this.set( 'myColumn', column );
+  });
+
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+
+} // End buildDB
+
 $(document).ready(function() {
+
   drawChart(data1, element1, domain1, vText1);
   drawChart(data2, element2, domain2, vText2);
   drawChart(data3, element4, domain3, vText3);
+
+  buildDB();
+  
 })

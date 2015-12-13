@@ -114,13 +114,20 @@ header #main-page {
 	overflow: visible;
 }
 
-.extra-info-container {
-	position: relative;
-	width: 70%;
+.hours_data {
+	border: 1px solid black;
+	width: 100%;
 }
 
-.interactive .bar_chart {
+.hours_data tr th {
+	font-weight: bold;
+	background-color: #708090; /* Slate Gray */
+}
 
+.hours_data tr td,  .hours_data tr th{
+	border: 1px solid black;
+	padding: 1em;
+	font-size: 1.25em;
 }
 
 .interactive .bar_chart svg {
@@ -147,9 +154,6 @@ header #main-page {
 	right: 21.5em;
 }
 
-#database {
-
-}
 
 .database-rows {
 	width: 90%;
@@ -174,10 +178,6 @@ td {
 	text-align: center;
 }
 
-.more-info {
-	/*display: none;*/
-
-}
 
 .t-head {
 	width: 100%;
@@ -192,10 +192,6 @@ td {
 	width: 100%;
 }
 
-.t-head tr {
-
-}
-
 .t-head tr th {
 	cursor: pointer;
 	font-size: 1.25em;
@@ -208,54 +204,6 @@ td {
 
 .temp-row {
 	height: auto;
-}
-
-.extra-info-container {
-	height: auto;
-	width: 100%;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 1em;
-	overflow: auto;
-}
-
-.first-half {
-	display: block;
-	height: auto;
-	width: 100%;
-}
-
-.second-half {
-	float: right;
-	display: block;
-	height: auto;
-	width: 100%;
-	margin-bottom: 2em;
-}
-
-.box {
-	display: block;
-	width: 100%;
-	height: 50px;
-	border: 2px solid black;
-	background-color: #007FFF; /* Slate Blue */
-	padding-bottom: 5em;
-}
-
-.box1 {
-	/*background-color: blue;*/
-}
-
-.box2 {
-	/*background-color: red;*/
-}
-
-.box3 {
-/*	background-color: green;*/
-}
-
-.box4 {
-	/*background-color: purple;*/
 }
 
 .info-dept {
@@ -276,39 +224,4 @@ p.info {
 	position: relative;
 	bottom: 0.5em;
 	right: 0.75em;
-}
-
-.arrow {
-	width: 50px;
-}
-
-.arrow:hover {
-	cursor: pointer;
-}
-
-.left-arrow {
-	position: relative;
-	top: 21em;
-	right: 3.5em;
-}
-
-.right-arrow {
-	position: relative;
-	top: 21em;
-	left: 26.75em;
-}
-
-#button {
-	font-size: 1.5em;
-	display: block;
-	margin: 1em;
-}
-
-.hide {
-	display: none;
-	/*visibility: hidden;*/
-}
-
-.show {
-	display: block;
 }

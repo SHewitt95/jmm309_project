@@ -48,7 +48,50 @@
         <p>Pay’s often an important aspect when searching for a job, but the weekly hours must also be considered. The data was split into two categories: average minimum and average maximum hours per week. For jobs that didn’t list explicit minimum or maximum hours (for example: “Flexible”), minimum hours were set equal to one, and maximums to 40 hours.</p>
       </div>
 
-      <div class="interactive" id="chart3"></div>
+      <div class="interactive">
+        <table class="hours_data">
+          <tr>
+            <th>Location</th>
+            <th>Avg. Minimum Hours per Week</th>
+            <th>Avg. Maximum Hours per Week</th>
+          </tr>
+          <tr>
+            <td>Admin Office</td>
+            <td>10.3</td>
+            <td>15.1</td>
+          </tr>
+          <tr>
+            <td>H&amp;D</td>
+            <td>16.3</td>
+            <td>23.5</td>
+          </tr>
+          <tr>
+            <td>Med. Campus</td>
+            <td>10.7</td>
+            <td>18.1</td>
+          </tr>
+          <tr>
+            <td>Other</td>
+            <td>10.5</td>
+            <td>16.9</td>
+          </tr>
+          <tr>
+            <td>RSMAS</td>
+            <td>10.0</td>
+            <td>14.0</td>
+          </tr>
+          <tr>
+            <td>S&amp;L</td>
+            <td>11.3</td>
+            <td>16.0</td>
+          </tr>
+          <tr>
+            <td>Student Act.</td>
+            <td>9.6</td>
+            <td>15.4</td>
+          </tr>
+        </table>
+      </div> <!-- End interactive -->
 
       <div class="text">
         <p>Every job has a number of requirements: Can you use Microsoft Word? How about Javascript? To figure out the average number of skills required per location, the number of skills per location was counted and averaged over the number of jobs in the location. The max amount of skills required for a single job is seven, the minimum being three.</p>
@@ -84,12 +127,7 @@
 
         <p>“The only ones who want the job are those studying in RSMAS. It doesn’t make sense to come all the way out here otherwise,” she said. “Because of that, I was the only applicant and immediately got the job.”</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div> <!-- End text -->
-
-      <div class="interactive">
-        
-      </div> <!-- End interactive -->
 
       <div class="text">
         <h2>Lowe Art Museum</h2>
@@ -150,10 +188,13 @@
 
       </div> <!-- End text -->
 
+      <div class="text">
+        <h2>The Database</h2>
+        <p>With all this data compiled, we couldn’t just let it sit in a Google spreadsheet. Below you’ll find a list of all the jobs listed on Canelink at the time of collection in October.</p>
+      </div>
+
 
       <div id="database">
-
-        <!--button id="button">Show Database</button-->
 
         <table class="database-rows">
           <!-- Content will go here -->
@@ -202,19 +243,8 @@
       </div> <!-- End temp-row -->
     </script>
 
-    <!--script src="data/All_Jobs2.js"></script-->
     <script src="data/Job_Data_with_Skills.js"></script>
-    <script src="js/bar_chart.js"></script>
-    <script src="js/database.js"></script>
-
-    <script>
-      $(function() {
-        $( "#accordion" ).accordion({
-          collapsible: true
-        });
-      });
-    </script>
-    <script src="js/dept-cards.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>
