@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Arvo|Droid+Sans);
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -112,6 +112,10 @@ div#page div.text h2.author {
 #headline {
   font-size: 3.5em;
   margin-top: 0.5em;
+}
+
+h2 {
+	font-family: "Arvo";
 }
 
 .text h2 {
