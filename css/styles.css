@@ -110,6 +110,7 @@ a:link, a:visited, a:hover, a:active {
 
 div#page div.text h2.section {
 	margin-left: 3.25em;
+	margin-bottom: 0;
 }
 
 /*div#page div.text h2.author {
@@ -119,8 +120,12 @@ div#page div.text h2.section {
 }*/
 
 div#page div.text span.author {
-	font-size: 0.55em;
+	font-size: 1em;
 	font-weight: normal;
+	margin-left: 4.9em;
+	margin-bottom: 1em;
+	display: block;
+	font-family: "Droid Sans", sans-serif;
 }
 
 #headline {
@@ -145,6 +150,11 @@ h2 {
   width: 100%;
 	overflow: visible;
 	position: relative;
+}
+
+iframe {
+	width: 100%;
+	height: 500px;
 }
 
 .hours_data {
@@ -259,13 +269,56 @@ p.info {
 
 /********************************* Mobile CSS *********************************/
 @media (max-width: 860px) {
+
+	body {
+			background-color: white;
+	}
+
 	#page {
+		width: 90%;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	header {
+		height: 30px;
+		position: fixed;
+	}
+
+	header #main-page {
+		font-size: 1.45em;
+		margin-top: 0.25em;
+	}
+
+	#headline {
+		margin-top: 0.75em;
+	}
+
+	#page .text {
 		width: 100%;
 		padding: 0;
 		margin: 0;
 	}
 
-	#page .text {
+	#page .text p {
 		width: 100%;
+		padding: 0;
+	}
+
+	div#page div.text h2.section {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	div#page div.text span.author {
+		display: block;
+		font-size: 1em;
+		margin-bottom: 1em;
+		margin-left: 0;
+	}
+
+	iframe {
+		width: 100%;
+		height: auto;
 	}
 }
