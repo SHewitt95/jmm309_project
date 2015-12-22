@@ -18,7 +18,9 @@ var xScale = d3.scale.ordinal()
         .domain(domain)
         .rangePoints([0, width]);
 
-var info = d3.select(chart).append("div")
+//d3.select(chart).style("position", "relative");
+
+var info = d3.select("#page").append("div")
         .style('position', 'absolute')
         .style('padding', '0 10px')
         .style('background', 'white')
@@ -32,17 +34,11 @@ d3.select(chart).append('svg')
     .attr("transform", 'translate('+ margin.left +', '+ margin.top +')')
     .selectAll('rect').data(bardata)
     .enter().append('rect')
-        .style('fill', 'blue')
+        .style('fill', '#234e22')
         .attr('width', (width/bardata.length) + "px")
-        .attr('height', function(d) {
-            return yScale(d);
-        })
-        .attr('x', function(d,i) {
-            return i * (barOffset + (width/bardata.length));
-        })
-        .attr('y', function(d) {
-            return height - yScale(d);
-        })
+        .attr('height', function(d) { return yScale(d); })
+        .attr('x', function(d,i) {  return i * (barOffset + (width/bardata.length)); })
+        .attr('y', function(d) { return height - yScale(d); })
         .on("mouseover", function(d) {
           d3.select(this).style("opacity", .5);
 
@@ -51,7 +47,7 @@ d3.select(chart).append('svg')
 
           info.html(d)
               .style('left', (d3.event.pageX - 35) + 'px')
-              .style('top',  (d3.event.pageY - 25) + 'px')
+              .style('top',  (d3.event.pageY - 20) + 'px')
         })
 
         .on("mouseout", normalOpacity)
@@ -97,11 +93,19 @@ d3.select(chart).append('svg')
       .attr("text-anchor", "end")
       .attr("x", width)
       .attr("y", height - 6)
+      .style("position", "absolute")
+      .style("left", "20em")
+      .style("bottom", "0.01em")
+      .style("font-family", "Droid Sans")
       .text("Locations");
 
   // Sets labels for the vertical axis.
   var vLabel = d3.select(chart).append("div")
       .attr("class", "y label")
+      .style("position", "absolute")
+      .style("left", "-3.25em")
+      .style("top", "10em")
+      .style("font-family", "Droid Sans")
       .text(vText);
 
 } // End drawChart function

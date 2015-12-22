@@ -69,6 +69,7 @@ header {
 header #main-page {
   font-size: 3em;
   color: white;
+	font-family: "Arvo", sans-serif;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -98,15 +99,28 @@ a:link, a:visited, a:hover, a:active {
 	font-family: "Droid Sans";
 }
 
+.byline {
+	font-family: "Arvo";
+}
+
 #page .text #story-top {
   text-align: center;
   margin-bottom: 2em;
 }
 
-div#page div.text h2.author {
+div#page div.text h2.section {
+	margin-left: 3.25em;
+}
+
+/*div#page div.text h2.author {
 	font-size: 0.85em;
 	padding: 0;
 	line-height: 0;
+}*/
+
+div#page div.text span.author {
+	font-size: 0.55em;
+	font-weight: normal;
 }
 
 #headline {
@@ -130,6 +144,7 @@ h2 {
   display: block;
   width: 100%;
 	overflow: visible;
+	position: relative;
 }
 
 .hours_data {
@@ -155,23 +170,20 @@ h2 {
 
 .interactive div.x.label {
 	display: block;
-	position: relative;
-	left: 20em;
-	bottom: 0.5em;
 	font-size: 1.25em;
 	font-weight: bold;
 }
 
 .interactive div.y.label {
 	display: block;
-	position: relative;
 	font-size: 1.25em;
 	font-weight: bold;
 	transform: rotate(-90deg);
-	bottom: 30em;
-	right: 21.5em;
 }
 
+.interactive svg g g.tick text {
+	font-family: "Droid Sans";
+}
 
 .database-rows {
 	width: 90%;
@@ -189,6 +201,7 @@ th, td {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: "Droid Sans", sans-serif;
 }
 
 td {
@@ -242,4 +255,17 @@ p.info {
 	position: relative;
 	bottom: 0.5em;
 	right: 0.75em;
+}
+
+/********************************* Mobile CSS *********************************/
+@media (max-width: 860px) {
+	#page {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	#page .text {
+		width: 100%;
+	}
 }
