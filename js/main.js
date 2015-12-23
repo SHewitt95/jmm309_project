@@ -5,10 +5,11 @@ function drawChart(bardata, chart, domain, vText) {
 
   // Chart dimensions
   var margin = {top: 30, right: 30, bottom: 40, left: 50};
-  var height = 450 - margin.top - margin.bottom,
-      width = 800 - margin.right - margin.left,
+  var height = 350 - margin.top - margin.bottom,
       barWidth = 50,
-      barOffset = 5;
+      barOffset = 5,
+      width = parseInt(d3.select(chart).style("width"), 10),
+      width = width - margin.right - margin.left;
 
 var yScale = d3.scale.linear()
         .domain([0, d3.max(bardata)])
@@ -17,8 +18,6 @@ var yScale = d3.scale.linear()
 var xScale = d3.scale.ordinal()
         .domain(domain)
         .rangePoints([0, width]);
-
-//d3.select(chart).style("position", "relative");
 
 var info = d3.select("#page").append("div")
         .style('position', 'absolute')
@@ -50,7 +49,7 @@ d3.select(chart).append('svg')
               .style('top',  (d3.event.pageY - 20) + 'px')
         })
 
-        .on("mouseout", normalOpacity)
+        .on("mouseout", normalOpacity);
 
   // Sets values for each tick mark on y-axis.
   var vGuideScale = d3.scale.linear()
@@ -94,7 +93,7 @@ d3.select(chart).append('svg')
       .attr("x", width)
       .attr("y", height - 6)
       .style("position", "absolute")
-      .style("left", "20em")
+      .style("left", 40+"%")
       .style("bottom", "0.01em")
       .style("font-family", "Droid Sans")
       .text("Locations");
@@ -182,5 +181,15 @@ $(document).ready(function() {
   drawChart(data3, element4, domain3, vText3);
 
   buildDB();
+
+  // Redraws the charts whenever the screen is resized.
+  d3.select(window).on("resize", function() {
+
+    d3.selectAll("svg").remove();
+
+    drawChart(data1, element1, domain1, vText1);
+    drawChart(data2, element2, domain2, vText2);
+    drawChart(data3, element4, domain3, vText3);
+  });
 
 })

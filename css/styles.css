@@ -321,4 +321,8 @@ p.info {
 		width: 100%;
 		height: auto;
 	}
+
+	.interactive svg g g.tick text {
+		font-size: 0.75em;
+	}
 }
