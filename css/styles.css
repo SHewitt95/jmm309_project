@@ -198,6 +198,7 @@ iframe {
 .database-rows {
 	width: 90%;
 	margin: 0 auto;
+	position: relative;
 }
 
 tr {
@@ -267,6 +268,12 @@ p.info {
 	right: 0.75em;
 }
 
+#database {
+	position: relative;
+	height: auto;
+	overflow: visible;
+}
+
 /********************************* Mobile CSS *********************************/
 @media (max-width: 860px) {
 
@@ -325,4 +332,47 @@ p.info {
 	.interactive svg g g.tick text {
 		font-size: 0.75em;
 	}
+
+	.t-head {
+		display: none;
+	}
+
+	.ui-accordion-header td {
+		display: block;
+		text-align: left;
+		line-height: 1.75;
+		font-size: 1.25em;
+		width: 100%;
+	}
+
+	.ui-accordion-header td:nth-child(2)::before {
+		content: "Job Title: ";
+		font-weight: bold;
+	}
+
+	.ui-accordion-header td:nth-child(3)::before {
+		content: "Min. Pay per Hour: ";
+		font-weight: bold;
+	}
+
+	.ui-accordion-header td:nth-child(4)::before {
+		content: "Max. Pay per Hour: ";
+		font-weight: bold;
+	}
+
+	.ui-accordion-header td:nth-child(5)::before {
+		content: "Min. Hours per Week: ";
+		font-weight: bold;
+	}
+
+	.ui-accordion-header td:nth-child(6)::before {
+		content: "Max. Hours per Week: ";
+		font-weight: bold;
+	}
+
+	.ui-accordion-header td:nth-child(7)::before {
+		content: "Category: ";
+		font-weight: bold;
+	}
+
 }

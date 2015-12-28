@@ -96,7 +96,7 @@ d3.select(chart).append('svg')
       .style("left", 40+"%")
       .style("bottom", "0.01em")
       .style("font-family", "Droid Sans")
-      .text("Locations");
+      .text("Categories");
 
   // Sets labels for the vertical axis.
   var vLabel = d3.select(chart).append("div")

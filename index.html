@@ -52,7 +52,7 @@
       <div class="interactive">
         <table class="hours_data">
           <tr>
-            <th>Location</th>
+            <th>Category</th>
             <th>Avg. Minimum Hours per Week</th>
             <th>Avg. Maximum Hours per Week</th>
           </tr>
@@ -227,7 +227,7 @@
       </table>
       <div class="temp-row" id="accordion">
         {{#each sort(myJobs, myColumn)}}
-        <tr>
+        <tr class="basic-info">
           <td>{{this.Job_Title}}</td>
           <td>${{this.Min_Pay}}</td>
           <td>${{this.Max_Pay}}</td>
