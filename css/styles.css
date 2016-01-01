@@ -52,7 +52,7 @@ table {
 /*************************** End of reset ***************************/
 
 body {
-  font-size: 16px;
+  font-size: 17px;
   background-color: #e5904e; /* TMH Orange */
 }
 
@@ -162,12 +162,12 @@ iframe {
 	width: 100%;
 }
 
-.hours_data tr th {
+.hours_data thead th {
 	font-weight: bold;
 	background-color: #708090; /* Slate Gray */
 }
 
-.hours_data tr td,  .hours_data tr th{
+.hours_data tr td,  .hours_data thead th{
 	border: 1px solid black;
 	padding: 1em;
 	font-size: 1.25em;
@@ -274,6 +274,10 @@ p.info {
 	overflow: visible;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /********************************* Mobile CSS *********************************/
 @media (max-width: 860px) {
 
@@ -309,6 +313,10 @@ p.info {
 
 	#page .text p {
 		width: 100%;
+		padding: 0;
+	}
+
+	#page p {
 		padding: 0;
 	}
 
@@ -372,6 +380,65 @@ p.info {
 
 	.ui-accordion-header td:nth-child(7)::before {
 		content: "Category: ";
+		font-weight: bold;
+	}
+
+	#accordion p {
+		font-size: 1.25em;
+	}
+/*
+	.hours_data thead th {
+		font-weight: bold;
+		background-color: #708090; Slate Gray
+	}
+
+	.hours_data tr td,  .hours_data thead th{
+		border: 1px solid black;
+		padding: 1em;
+		font-size: 1.25em;
+	}*/
+
+	.hours_data {
+		border: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.hours_data thead th {
+		display: none;
+	}
+
+	.hours_data tr td {
+		border: none;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		display: block;
+		text-align: left;
+		width: 80%;
+		padding: 0.5em;
+		line-height: 1.25;
+	}
+
+	.hours_data tr td:last-child {
+		border-bottom: 1px solid black;
+	}
+
+	.hours_data tr td:first-child {
+		border-top: 1px solid black;
+	}
+
+	.hours_data tr td:nth-child(1)::before {
+		content: "Category: ";
+		font-weight: bold;
+	}
+
+	.hours_data tr td:nth-child(2)::before {
+		content: "Min. Avg. Hours per Week: ";
+		font-weight: bold;
+	}
+
+	.hours_data tr td:nth-child(3)::before {
+		content: "Max. Avg. Hours per Week: ";
 		font-weight: bold;
 	}
 

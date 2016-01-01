@@ -51,11 +51,11 @@
 
       <div class="interactive">
         <table class="hours_data">
-          <tr>
+          <thead>
             <th>Category</th>
             <th>Avg. Minimum Hours per Week</th>
             <th>Avg. Maximum Hours per Week</th>
-          </tr>
+          </thead>
           <tr>
             <td>Admin Office</td>
             <td>10.3</td>
@@ -236,11 +236,11 @@
           <td>{{this.Department}}</td>
         </tr>
         <div class="more-info">
-          <p>Job Description: {{this.Job_Desc}}</p>
-          <p>Skills: {{this.Skills}}</p>
-          <p>Address: {{this.Address}}</p>
-          <p>Phone Number: {{this.Phone_Number}}</p>
-          <p>Employer: {{this.Employer}}</p>
+          <p><span class="bold">Job Description:</span> {{this.Job_Desc}}</p>
+          <p><span class="bold">Skills:</span> {{this.Skills}}</p>
+          <p><span class="bold">Address:</span> {{this.Address}}</p>
+          <p><span class="bold">Phone Number:</span> {{this.Phone_Number}}</p>
+          <p><span class="bold">Employer:</span> {{this.Employer}}</p>
         </div>
         {{/each}}
       </div> <!-- End temp-row -->
