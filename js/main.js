@@ -178,7 +178,7 @@ $(document).ready(function() {
 
   drawChart(data1, element1, domain1, vText1);
   drawChart(data2, element2, domain2, vText2);
-  drawChart(data3, element4, domain3, vText3);
+  //drawChart(data3, element4, domain3, vText3);
 
   buildDB();
 
@@ -189,7 +189,7 @@ $(document).ready(function() {
 
     drawChart(data1, element1, domain1, vText1);
     drawChart(data2, element2, domain2, vText2);
-    drawChart(data3, element4, domain3, vText3);
+    //drawChart(data3, element4, domain3, vText3);
   });
 
 })
